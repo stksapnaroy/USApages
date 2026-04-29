@@ -1,0 +1,66 @@
+{
+  "nav_services": "Services",
+  "nav_solutions": "Key Solutions",
+  "nav_case": "Case Studies",
+  "nav_contact": "Contact",
+
+  "heroTitle": "Top <span class='text-primary'>Software <br/> Development</span> Company USA",
+  "heroDesc": "Looking for a software development company in the USA? We are a top software development company in the USA delivering scalable, secure, and AI-powered digital products. As a trusted USA software development company, we help startups and enterprises innovate faster.",
+  "cta": "Book Free Consultation",
+
+  "services_title": "Our Services in the USA",
+  "services_desc": "End-to-end software engineering services designed for modern businesses.",
+
+  "mobile_title": "Mobile App Development",
+  "mobile_desc": "iOS & Android apps with high performance UX.",
+
+  "web_title": "Web App Development",
+  "web_desc": "Modern scalable web apps for startups & enterprises.",
+
+  "custom_title": "Custom Software",
+  "custom_desc": "Tailored digital solutions built for your workflow.",
+
+  "ai_title": "AI Consulting",
+  "ai_desc": "Automation, chatbots & machine learning systems.",
+
+  "cloud_title": "Cloud Infrastructure",
+  "cloud_desc": "AWS, Azure and secure cloud architecture.",
+
+  "support_title": "Maintenance & Support",
+  "support_desc": "Continuous upgrades and optimization.",
+
+  "solutions_title": "Key Solutions Delivered",
+  "solutions_desc": "AI SaaS, FinTech, On-demand apps, Cybersecurity systems and more.",
+
+  "tag_ai": "AI/ML",
+  "tag_fintech": "FinTech",
+  "tag_demand": "On-Demand",
+  "tag_cloud": "Cloud Native",
+  "tag_cyber": "Cybersecurity",
+  "tag_qsr": "QSR Platform",
+  "tag_ghl": "GHL",
+
+  "solution_1": "AI/ML-powered SaaS platforms & automation tools",
+  "solution_2": "FinTech & payment app development (PCI-compliant systems)",
+  "solution_3": "On-demand apps (ride-sharing, delivery, marketplaces)",
+  "solution_4": "Cloud-native enterprise applications (AWS, Azure)",
+  "solution_5": "Cybersecurity-focused software & compliance solutions",
+  "solution_6": "QSR Platform maintenance and Upgradation from legacy to NextGen",
+  "solution_7": "GHL Expertise from implementation to integration",
+
+  "case_title": "Case Studies",
+  "case_desc": "Real digital transformation success stories.",
+
+  "case_1_title": "AI Chatbot & Automation",
+  "case_2_title": "QSR Platform",
+  "case_3_title": "Taxi Booking App",
+  "case_4_title": "Match Making Guide App",
+
+  "view_case": "View Case Study →",
+
+  "contact_title": "Need a <span class='text-primary'>Software Partner?</span>",
+  "contact_desc": "Build secure, scalable and future-ready software with Suretek Infosoft.",
+  "contact_cta": "Start Your Project",
+
+  "footer_text": "© 2026 Suretek Infosoft. All Rights Reserved."
+}

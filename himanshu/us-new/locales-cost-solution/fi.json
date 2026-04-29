@@ -1,0 +1,113 @@
+{
+  "hero_title": "Kyllästynyt korkeisiin ohjelmisto-<br class='hidden md:block'/> <span class='text-primaryRed'>kehityskustannuksiin Yhdysvalloissa?</span>",
+  "hero_desc": "Ulkoistaminen ei ole pelkkä kustannusten leikkauskeino; se on kasvustrategia. Aloita 30 tunnin ilmainen kokeilujakso jo tänään.",
+  "hero_cta_primary": "Pyydä ilmainen konsultaatio",
+  "hero_cta_secondary": "Näytä palvelut",
+
+  "stats_title": "Todistetut tulokset. Mitattava menestys.",
+
+  "stat_clients": "Aktiiviset globaalit asiakkaat",
+  "stat_delivery": "Ajoissa toimitettujen projektien osuus",
+  "stat_security": "NDA- ja tietoturvavaatimusten noudattaminen",
+  "stat_kickoff": "Projektin aloitusaika",
+
+  "about_tag": "MIKSI VALITA MEIDÄT",
+
+  "about_title": "Hanki premium-tason ohjelmistokehitystä <br/> ilman premium-tason Yhdysvaltojen kustannuksia",
+
+  "about_desc": "Älykkäämpi tapa rakentaa kehitystiimisi",
+
+  "about_point_1": "Haastattele ennen aloittamista",
+  "about_point_2": "Riskitön kokeilu, ei painetta",
+  "about_point_3": "Pääsy globaaliin osaamiseen tarpeen mukaan",
+  "about_point_4": "Sama tiimi alusta loppuun",
+  "about_point_5": "Nopea korvaaminen ilman viiveitä",
+  "about_point_6": "Ei riskiä ilmaisella kokeilulla",
+  "about_point_7": "Vähennä kehityskustannuksia merkittävästi",
+  "about_point_8": "Aikavyöhykkeisiin sovitettu viestintä",
+
+  "about_badge_top": "Huippuarvosteltu",
+  "about_badge_bottom": "Kehitystoimisto",
+
+  "services_tag": "Osaamisemme",
+
+  "services_title": "Kokonaisvaltaiset ohjelmistokehityspalvelut yhdysvaltalaisille yrityksille",
+
+  "services_desc": "Ideasta julkaisuun tarjoamme skaalautuvia, kustannustehokkaita ja suorituskykyisiä ohjelmistoratkaisuja liiketoimintatavoitteidesi mukaisesti.",
+
+  "service_1": "Räätälöity ohjelmistokehitys",
+  "service_2": "Web-sovelluskehitys",
+  "service_3": "Mobiilisovelluskehitys",
+  "service_4": "Palkkaa dedikoituja kehittäjiä",
+  "service_5": "UI/UX-suunnittelu",
+  "service_6": "Ylläpito ja tuki",
+  "service_7": "Pilvi ja DevOps",
+  "service_8": "API-kehitys ja integraatio",
+
+  "faq_title": "Usein kysytyt kysymykset (UKK)",
+  "faq_desc": "Onko kysymyksiä? Meillä on vastaukset",
+
+  "faq_q1": "Miksi yhdysvaltalaisten yritysten tulisi ulkoistaa ohjelmistokehitys?",
+  "faq_a1": "Yritykset ulkoistavat vähentääkseen kehityskustannuksia, saadakseen pääsyn globaaliin osaamiseen ja nopeuttaakseen projektien toimitusta ilman sisäisten tiimien kustannuksia.",
+
+  "faq_q2": "Voinko haastatella kehittäjiä ennen aloittamista?",
+  "faq_a2": "Kyllä. Voit arvioida ja haastatella kehittäjiä varmistaaksesi, että he vastaavat teknisiä ja viestinnällisiä tarpeitasi.",
+
+  "faq_q3": "Miten tämä vähentää kehityskustannuksiani Yhdysvalloissa?",
+  "faq_a3": "Vältät korkeat palkat, edut ja rekrytointikulut samalla kun saat laadukasta kehitystyötä.",
+
+  "faq_q4": "Onko ohjelmistokehityksen ulkoistaminen turvallista?",
+  "faq_a4": "Kyllä. Oikeilla NDA-sopimuksilla, turvallisilla prosesseilla ja tietosuojakäytännöillä ulkoistaminen on turvallista ja luotettavaa.",
+
+  "faq_q5": "Tarjoatteko ilmaisen kokeilun ennen aloittamista?",
+  "faq_a5": "Kyllä, tarjoamme 100 % ilmaisen kokeilun, jotta voit arvioida työn laatua, viestintää ja nopeutta ennen sitoutumista.",
+
+  "faq_q6": "Kuinka nopeasti voitte aloittaa projektini?",
+  "faq_a6": "Voimme yleensä aloittaa 24–48 tunnin kuluessa vaatimusten ymmärtämisestä.",
+
+  "faq_q7": "Voinko palkata dedikoituja kehittäjiä projektiini?",
+  "faq_a7": "Ehdottomasti. Voit palkata kokopäiväisiä tai osa-aikaisia kehittäjiä tarpeidesi mukaan.",
+
+  "case_title": "Asiakastarinat",
+
+  "case1_title": "Terveydenhuollon digitalisointi",
+  "case1_desc": "Turvallinen ja skaalautuva EHR-järjestelmä, joka mahdollistaa sujuvan potilastietojen hallinnan ja vaatimustenmukaisuuden.",
+
+  "case2_title": "Kiinteistöalan digitalisointi",
+  "case2_desc": "Arviointiprosessien modernisointi nopeammalla raportoinnilla ja digitaalisella tehokkuudella.",
+
+  "case3_title": "Älykäs myyntiratkaisu",
+  "case3_desc": "Myyntitehokkuuden parantaminen automaation, analytiikan ja älykkäämpien prosessien avulla.",
+
+  "case4_title": "QSR IT-tuki",
+  "case4_desc": "Luotettava IT-infrastruktuuri, joka varmistaa sujuvan toiminnan nopeasti kasvavalle QSR-alustalle.",
+
+  "case5_title": "AI-matchmaking-alusta",
+  "case5_desc": "Hyödyntää tekoälyä merkityksellisten, tarkkojen ja personoitujen yhteensovituskokemusten luomiseksi.",
+
+  "case6_title": "Web-sovelluskehitys",
+  "case6_desc": "Rakennamme nopeita ja turvallisia web-sovelluksia moderneilla teknologioilla.",
+
+  "case_cta": "Lue lisää →",
+
+  "footer_desc": "Premium IT- ja digitaaliset ratkaisut, jotka on suunniteltu skaalaamaan liiketoimintaasi. Laadukas kehitys, strateginen hinnoittelu.",
+
+  "footer_company": "Yritys",
+  "footer_about": "Tietoa meistä",
+  "footer_portfolio": "Portfolio",
+  "footer_careers": "Urat",
+
+  "footer_services": "Palvelut",
+  "footer_service_web": "Web-kehitys",
+  "footer_service_mobile": "Mobiilisovellukset",
+  "footer_service_uiux": "UI/UX-suunnittelu",
+  "footer_service_marketing": "Digitaalinen markkinointi",
+  "footer_service_custom": "Räätälöity ohjelmisto",
+
+  "footer_contact": "Yhteystiedot",
+  "footer_address": "Noida, UP, Intia",
+  "footer_email": "info@suretekinfosoft.com",
+  "footer_phone": "+1 (555) 123-4567",
+
+  "footer_copyright": "© 2026 Suretek Infosoft. Kaikki oikeudet pidätetään."
+}

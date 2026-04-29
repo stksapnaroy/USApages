@@ -1,0 +1,66 @@
+{
+  "nav_services": "Tjenester",
+  "nav_solutions": "Nøgleløsninger",
+  "nav_case": "Casestudier",
+  "nav_contact": "Kontakt",
+
+  "heroTitle": "Førende <span class='text-primary'>software- <br/> udviklingsvirksomhed</span> i USA",
+  "heroDesc": "Leder du efter en pålidelig softwareudviklingsvirksomhed i USA? Suretek Infosoft leverer skalerbare, sikre og AI-drevne digitale produkter.",
+  "cta": "Book gratis konsultation",
+
+  "services_title": "Vores tjenester i USA",
+  "services_desc": "End-to-end softwareudviklingstjenester designet til moderne virksomheder.",
+
+  "mobile_title": "Udvikling af mobilapps",
+  "mobile_desc": "iOS- og Android-apps med høj ydeevne og fremragende brugeroplevelse.",
+
+  "web_title": "Udvikling af webapps",
+  "web_desc": "Moderne og skalerbare webapplikationer til startups og virksomheder.",
+
+  "custom_title": "Skræddersyet software",
+  "custom_desc": "Tilpassede digitale løsninger bygget til dine arbejdsgange.",
+
+  "ai_title": "AI-rådgivning",
+  "ai_desc": "Automatisering, chatbots og machine learning-systemer.",
+
+  "cloud_title": "Cloud-infrastruktur",
+  "cloud_desc": "AWS, Azure og sikker cloud-arkitektur.",
+
+  "support_title": "Vedligeholdelse og support",
+  "support_desc": "Løbende opdateringer og optimering.",
+
+  "solutions_title": "Leverede nøgleløsninger",
+  "solutions_desc": "AI SaaS, FinTech, on-demand apps, cybersikkerhedssystemer og mere.",
+
+  "tag_ai": "AI/ML",
+  "tag_fintech": "FinTech",
+  "tag_demand": "On-demand",
+  "tag_cloud": "Cloud Native",
+  "tag_cyber": "Cybersikkerhed",
+  "tag_qsr": "QSR Platform",
+  "tag_ghl": "GHL",
+
+  "solution_1": "AI/ML-drevne SaaS-platforme og automatiseringsværktøjer",
+  "solution_2": "FinTech- og betalingsapp-udvikling (PCI-kompatible systemer)",
+  "solution_3": "On-demand apps (ride-sharing, levering, markedspladser)",
+  "solution_4": "Cloud-native virksomhedsapplikationer (AWS, Azure)",
+  "solution_5": "Cybersikkerhedsfokuseret software og compliance-løsninger",
+  "solution_6": "Vedligeholdelse af QSR-platform og opgradering fra legacy til NextGen",
+  "solution_7": "GHL-ekspertise fra implementering til integration",
+
+  "case_title": "Casestudier",
+  "case_desc": "Virkelige succeshistorier inden for digital transformation.",
+
+  "case_1_title": "AI chatbot & automatisering",
+  "case_2_title": "QSR Platform",
+  "case_3_title": "Taxi booking app",
+  "case_4_title": "Matchmaking guide app",
+
+  "view_case": "Se case →",
+
+  "contact_title": "Har du brug for en softwarepartner?",
+  "contact_desc": "Byg sikre, skalerbare og fremtidssikrede softwareløsninger med Suretek Infosoft.",
+  "contact_cta": "Start dit projekt",
+
+  "footer_text": "© 2026 Suretek Infosoft. Alle rettigheder forbeholdes."
+}

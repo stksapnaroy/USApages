@@ -1,0 +1,66 @@
+{
+  "nav_services": "Palvelut",
+  "nav_solutions": "Keskeiset ratkaisut",
+  "nav_case": "Case-esimerkit",
+  "nav_contact": "Yhteystiedot",
+
+  "heroTitle": "Johtava <span class='text-primary'>ohjelmisto- <br/> kehitysyhtiö</span> USA:ssa",
+  "heroDesc": "Etsitkö luotettavaa ohjelmistokehitysyritystä USA:ssa? Suretek Infosoft tarjoaa skaalautuvia, turvallisia ja tekoälypohjaisia digitaalisia tuotteita.",
+  "cta": "Varaa ilmainen konsultaatio",
+
+  "services_title": "Palvelumme USA:ssa",
+  "services_desc": "Kokonaisvaltaiset ohjelmistokehityspalvelut moderneille yrityksille.",
+
+  "mobile_title": "Mobiilisovelluskehitys",
+  "mobile_desc": "iOS- ja Android-sovellukset korkealla suorituskyvyllä ja hyvällä käyttökokemuksella.",
+
+  "web_title": "Web-sovelluskehitys",
+  "web_desc": "Modernit ja skaalautuvat web-sovellukset startupeille ja yrityksille.",
+
+  "custom_title": "Räätälöity ohjelmisto",
+  "custom_desc": "Räätälöidyt digitaaliset ratkaisut työnkulkuusi.",
+
+  "ai_title": "AI-konsultointi",
+  "ai_desc": "Automaatio, chatbotit ja koneoppimisjärjestelmät.",
+
+  "cloud_title": "Pilvi-infrastruktuuri",
+  "cloud_desc": "AWS, Azure ja turvallinen pilviarkkitehtuuri.",
+
+  "support_title": "Ylläpito ja tuki",
+  "support_desc": "Jatkuvat päivitykset ja optimointi.",
+
+  "solutions_title": "Toimitetut keskeiset ratkaisut",
+  "solutions_desc": "AI SaaS, FinTech, on-demand-sovellukset, kyberturvallisuusjärjestelmät ja paljon muuta.",
+
+  "tag_ai": "AI/ML",
+  "tag_fintech": "FinTech",
+  "tag_demand": "On-demand",
+  "tag_cloud": "Pilvinatiivi",
+  "tag_cyber": "Kyberturvallisuus",
+  "tag_qsr": "QSR-alusta",
+  "tag_ghl": "GHL",
+
+  "solution_1": "AI/ML-pohjaiset SaaS-alustat ja automaatiotyökalut",
+  "solution_2": "FinTech- ja maksusovelluskehitys (PCI-yhteensopivat järjestelmät)",
+  "solution_3": "On-demand-sovellukset (kyytipalvelut, toimitukset, markkinapaikat)",
+  "solution_4": "Pilvinatiiviset yrityssovellukset (AWS, Azure)",
+  "solution_5": "Kyberturvallisuuteen keskittyvät ohjelmistot ja vaatimustenmukaisuusratkaisut",
+  "solution_6": "QSR-alustan ylläpito ja päivitys legacy-järjestelmistä NextGen-ratkaisuihin",
+  "solution_7": "GHL-osaaminen toteutuksesta integraatioon",
+
+  "case_title": "Case-esimerkit",
+  "case_desc": "Todellisia digitaalisen transformaation onnistumistarinoita.",
+
+  "case_1_title": "AI-chatbot ja automaatioalusta",
+  "case_2_title": "QSR-alusta",
+  "case_3_title": "Taksin varaus -sovellus",
+  "case_4_title": "Matchmaking-opassovellus",
+
+  "view_case": "Katso case →",
+
+  "contact_title": "Tarvitsetko ohjelmistokumppanin?",
+  "contact_desc": "Rakenna turvallisia, skaalautuvia ja tulevaisuuden kestäviä ohjelmistoja Suretek Infosoftin kanssa.",
+  "contact_cta": "Aloita projektisi",
+
+  "footer_text": "© 2026 Suretek Infosoft. Kaikki oikeudet pidätetään."
+}

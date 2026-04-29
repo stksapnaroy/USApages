@@ -1,0 +1,113 @@
+{
+  "hero_title": "Müde von hohen Software-<br class='hidden md:block'/> <span class='text-primaryRed'>Entwicklungskosten in den USA?</span>",
+  "hero_desc": "Outsourcing ist nicht nur eine Kostensenkungsmaßnahme; es ist eine Wachstumsstrategie. Starten Sie noch heute Ihre kostenlose 30-Stunden-Testphase.",
+  "hero_cta_primary": "Kostenlose Beratung anfordern",
+  "hero_cta_secondary": "Services ansehen",
+
+  "stats_title": "Bewährte Ergebnisse. Messbarer Erfolg.",
+
+  "stat_clients": "Aktive globale Kunden",
+  "stat_delivery": "Pünktliche Lieferquote",
+  "stat_security": "NDA- & Datensicherheitskonformität",
+  "stat_kickoff": "Projektstartzeit",
+
+  "about_tag": "WARUM UNS WÄHLEN",
+
+  "about_title": "Erhalten Sie Premium-Software-<br/>entwicklung ohne Premium-US-Kosten",
+
+  "about_desc": "Ein smarter Weg, Ihr Entwicklungsteam aufzubauen",
+
+  "about_point_1": "Interview vor dem Start",
+  "about_point_2": "Risikofreie Testphase, kein Druck",
+  "about_point_3": "Zugang zu globalen Talenten auf Abruf",
+  "about_point_4": "Dasselbe Team von Anfang bis Ende",
+  "about_point_5": "Schneller Ersatz, keine Verzögerungen",
+  "about_point_6": "Kein Risiko mit kostenloser Testphase",
+  "about_point_7": "Reduzieren Sie Entwicklungskosten erheblich",
+  "about_point_8": "Zeitzonenabgestimmte Kommunikation",
+
+  "about_badge_top": "Top bewertet",
+  "about_badge_bottom": "Entwicklungsagentur",
+
+  "services_tag": "Unsere Expertise",
+
+  "services_title": "End-to-End Softwareentwicklungsservices für US-Unternehmen",
+
+  "services_desc": "Von der Idee bis zum Launch bieten wir skalierbare, kosteneffiziente und leistungsstarke Softwarelösungen, die auf Ihre Geschäftsziele zugeschnitten sind.",
+
+  "service_1": "Individuelle Softwareentwicklung",
+  "service_2": "Webanwendungsentwicklung",
+  "service_3": "Mobile App Entwicklung",
+  "service_4": "Dedizierte Entwickler einstellen",
+  "service_5": "UI/UX Design",
+  "service_6": "Wartung & Support",
+  "service_7": "Cloud & DevOps",
+  "service_8": "API Entwicklung & Integration",
+
+  "faq_title": "Häufig gestellte Fragen (FAQs)",
+  "faq_desc": "Haben Sie Fragen? Wir haben die Antworten",
+
+  "faq_q1": "Warum sollten US-Unternehmen Softwareentwicklung auslagern?",
+  "faq_a1": "US-Unternehmen lagern aus, um Entwicklungskosten zu senken, Zugang zu globalen Talenten zu erhalten und die Projektlieferung zu beschleunigen, ohne die Kosten interner Teams.",
+
+  "faq_q2": "Kann ich Entwickler vor dem Start interviewen?",
+  "faq_a2": "Ja. Sie können Entwickler prüfen und interviewen, um sicherzustellen, dass sie Ihren technischen und kommunikativen Anforderungen entsprechen.",
+
+  "faq_q3": "Wie reduziert dies meine Entwicklungskosten in den USA?",
+  "faq_a3": "Sie vermeiden hohe Gehälter, Zusatzleistungen und Einstellungskosten und erhalten dennoch hochwertige Entwicklung.",
+
+  "faq_q4": "Ist das Outsourcing der Softwareentwicklung sicher?",
+  "faq_a4": "Ja. Mit entsprechenden NDAs, sicheren Prozessen und Datenschutzmaßnahmen ist Outsourcing sicher und zuverlässig.",
+
+  "faq_q5": "Bieten Sie eine kostenlose Testphase vor dem Start an?",
+  "faq_a5": "Ja, wir bieten eine 100 % kostenlose Testphase, damit Sie unsere Arbeitsqualität, Kommunikation und Geschwindigkeit bewerten können, bevor Sie sich entscheiden.",
+
+  "faq_q6": "Wie schnell können Sie mein Projekt starten?",
+  "faq_a6": "In der Regel können wir innerhalb von 24–48 Stunden nach Verständnis Ihrer Anforderungen beginnen.",
+
+  "faq_q7": "Kann ich dedizierte Entwickler für mein Projekt einstellen?",
+  "faq_a7": "Absolut. Sie können Vollzeit- oder Teilzeitentwickler je nach Bedarf einstellen.",
+
+  "case_title": "Fallstudien",
+
+  "case1_title": "Digitalisierung im Gesundheitswesen",
+  "case1_desc": "Sicheres, skalierbares EHR-System für nahtloses Patientendatenmanagement und Compliance.",
+
+  "case2_title": "Digitalisierung der Immobilienbranche",
+  "case2_desc": "Modernisierung von Bewertungsprozessen mit schnellerer Berichterstattung und digitaler Effizienz.",
+
+  "case3_title": "Intelligente Vertriebslösung",
+  "case3_desc": "Steigerung der Vertriebsleistung durch Automatisierung, Einblicke und effizientere Prozesse.",
+
+  "case4_title": "QSR IT-Support",
+  "case4_desc": "Zuverlässige IT-Infrastruktur für einen reibungslosen Betrieb einer schnell wachsenden QSR-Plattform.",
+
+  "case5_title": "KI-Matchmaking-Plattform",
+  "case5_desc": "Nutzung von KI zur Schaffung sinnvoller, präziser und personalisierter Matching-Erlebnisse.",
+
+  "case6_title": "Webanwendungsentwicklung",
+  "case6_desc": "Wir entwickeln schnelle und sichere Webanwendungen mit modernen Technologien.",
+
+  "case_cta": "Mehr erfahren →",
+
+  "footer_desc": "Premium IT- und digitale Lösungen zur Skalierung Ihres Unternehmens. Hochwertige Entwicklung, strategische Preisgestaltung.",
+
+  "footer_company": "Unternehmen",
+  "footer_about": "Über uns",
+  "footer_portfolio": "Portfolio",
+  "footer_careers": "Karriere",
+
+  "footer_services": "Services",
+  "footer_service_web": "Webentwicklung",
+  "footer_service_mobile": "Mobile Anwendungen",
+  "footer_service_uiux": "UI/UX Design",
+  "footer_service_marketing": "Digitales Marketing",
+  "footer_service_custom": "Individuelle Software",
+
+  "footer_contact": "Kontakt",
+  "footer_address": "Noida, UP, Indien",
+  "footer_email": "info@suretekinfosoft.com",
+  "footer_phone": "+1 (555) 123-4567",
+
+  "footer_copyright": "© 2026 Suretek Infosoft. Alle Rechte vorbehalten."
+}

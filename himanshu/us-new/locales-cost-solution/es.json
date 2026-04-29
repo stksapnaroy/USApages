@@ -1,0 +1,113 @@
+{
+  "hero_title": "¿Cansado de los altos costos de <br class='hidden md:block'/> <span class='text-primaryRed'>desarrollo de software en EE. UU.?</span>",
+  "hero_desc": "La externalización no es solo una táctica para reducir costos; es una estrategia de crecimiento. Comienza tu prueba gratuita de 30 horas hoy mismo.",
+  "hero_cta_primary": "Solicitar consulta gratuita",
+  "hero_cta_secondary": "Ver servicios",
+
+  "stats_title": "Resultados comprobados. Éxito medible.",
+
+  "stat_clients": "Clientes globales activos",
+  "stat_delivery": "Tasa de entrega a tiempo",
+  "stat_security": "Cumplimiento de NDA y seguridad de datos",
+  "stat_kickoff": "Tiempo de inicio del proyecto",
+
+  "about_tag": "POR QUÉ ELEGIRNOS",
+
+  "about_title": "Obtén desarrollo de software premium <br/> sin costos premium de EE. UU.",
+
+  "about_desc": "Una forma más inteligente de construir tu equipo de desarrollo",
+
+  "about_point_1": "Entrevista antes de comenzar",
+  "about_point_2": "Prueba sin riesgos, sin presión",
+  "about_point_3": "Acceso a talento global bajo demanda",
+  "about_point_4": "El mismo equipo de principio a fin",
+  "about_point_5": "Reemplazo rápido, sin retrasos",
+  "about_point_6": "Cero riesgo con prueba gratuita",
+  "about_point_7": "Reduce significativamente los costos de desarrollo",
+  "about_point_8": "Comunicación alineada por zona horaria",
+
+  "about_badge_top": "Mejor valorado",
+  "about_badge_bottom": "Agencia de desarrollo",
+
+  "services_tag": "Nuestra experiencia",
+
+  "services_title": "Servicios de desarrollo de software de extremo a extremo para empresas de EE. UU.",
+
+  "services_desc": "Desde la idea hasta el lanzamiento, ofrecemos soluciones de software escalables, rentables y de alto rendimiento adaptadas a tus objetivos de negocio.",
+
+  "service_1": "Desarrollo de software a medida",
+  "service_2": "Desarrollo de aplicaciones web",
+  "service_3": "Desarrollo de aplicaciones móviles",
+  "service_4": "Contratar desarrolladores dedicados",
+  "service_5": "Diseño UI/UX",
+  "service_6": "Mantenimiento y soporte",
+  "service_7": "Cloud y DevOps",
+  "service_8": "Desarrollo e integración de APIs",
+
+  "faq_title": "Preguntas frecuentes (FAQs)",
+  "faq_desc": "¿Tienes preguntas? Tenemos respuestas",
+
+  "faq_q1": "¿Por qué las empresas de EE. UU. deberían externalizar el desarrollo de software?",
+  "faq_a1": "Las empresas externalizan para reducir costos de desarrollo, acceder a talento global y acelerar la entrega de proyectos sin los costos de equipos internos.",
+
+  "faq_q2": "¿Puedo entrevistar a los desarrolladores antes de comenzar?",
+  "faq_a2": "Sí. Puedes evaluar y entrevistar a los desarrolladores para asegurarte de que cumplan con tus necesidades técnicas y de comunicación.",
+
+  "faq_q3": "¿Cómo reduce esto mis costos de desarrollo en EE. UU.?",
+  "faq_a3": "Evitas altos salarios, beneficios y costos de contratación mientras obtienes desarrollo de alta calidad.",
+
+  "faq_q4": "¿Es seguro externalizar el desarrollo de software?",
+  "faq_a4": "Sí. Con NDAs adecuados, flujos de trabajo seguros y prácticas de protección de datos, la externalización es segura y confiable.",
+
+  "faq_q5": "¿Ofrecen una prueba gratuita antes de comenzar?",
+  "faq_a5": "Sí, ofrecemos una prueba 100 % gratuita para que puedas evaluar la calidad de nuestro trabajo, la comunicación y la velocidad antes de comprometerte.",
+
+  "faq_q6": "¿Qué tan rápido pueden comenzar mi proyecto?",
+  "faq_a6": "Normalmente podemos comenzar dentro de 24–48 horas después de comprender tus requisitos.",
+
+  "faq_q7": "¿Puedo contratar desarrolladores dedicados para mi proyecto?",
+  "faq_a7": "Absolutamente. Puedes contratar desarrolladores dedicados a tiempo completo o parcial según tus necesidades.",
+
+  "case_title": "Casos de estudio",
+
+  "case1_title": "Digitalización de la salud",
+  "case1_desc": "Sistema EHR seguro y escalable que permite una gestión eficiente de datos de pacientes y cumplimiento normativo.",
+
+  "case2_title": "Digitalización inmobiliaria",
+  "case2_desc": "Modernización de procesos de valoración con informes más rápidos y eficiencia digital.",
+
+  "case3_title": "Solución de ventas inteligente",
+  "case3_desc": "Mejora del rendimiento de ventas mediante automatización, análisis y procesos más inteligentes.",
+
+  "case4_title": "Soporte IT para QSR",
+  "case4_desc": "Infraestructura IT confiable que garantiza operaciones fluidas para una plataforma QSR en rápido crecimiento.",
+
+  "case5_title": "Plataforma de matchmaking con IA",
+  "case5_desc": "Uso de IA para crear experiencias de emparejamiento significativas, precisas y personalizadas.",
+
+  "case6_title": "Desarrollo de aplicaciones web",
+  "case6_desc": "Creamos aplicaciones web rápidas y seguras utilizando tecnologías modernas.",
+
+  "case_cta": "Leer más →",
+
+  "footer_desc": "Soluciones IT y digitales premium diseñadas para escalar tu negocio. Desarrollo de calidad, precios estratégicos.",
+
+  "footer_company": "Empresa",
+  "footer_about": "Sobre nosotros",
+  "footer_portfolio": "Portafolio",
+  "footer_careers": "Carreras",
+
+  "footer_services": "Servicios",
+  "footer_service_web": "Desarrollo web",
+  "footer_service_mobile": "Aplicaciones móviles",
+  "footer_service_uiux": "Diseño UI/UX",
+  "footer_service_marketing": "Marketing digital",
+  "footer_service_custom": "Software a medida",
+
+  "footer_contact": "Contacto",
+  "footer_address": "Noida, UP, India",
+  "footer_email": "info@suretekinfosoft.com",
+  "footer_phone": "+1 (555) 123-4567",
+
+  "footer_copyright": "© 2026 Suretek Infosoft. Todos los derechos reservados."
+}
