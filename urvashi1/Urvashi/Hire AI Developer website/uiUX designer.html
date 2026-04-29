@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hire Top AI Developer in the USA | AI Development Services</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+<!-- Updated Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                fontFamily: {
+                    sans: ['Poppins', 'sans-serif'],
+                }
+            }
+        }
+    }
+</script>
+
+<style>
+    body { 
+        background: #ffffff; 
+        color: #222222;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    @keyframes animationIn {
+        0% { opacity: 0; transform: translateY(30px); filter: blur(8px); }
+        100% { opacity: 1; transform: translateY(0); filter: blur(0px); }
+    }
+
+    .animate-on-scroll {
+        animation: animationIn 1s ease-out paused both;
+    }
+    .animate-on-scroll.animate {
+        animation-play-state: running;
+    }
+
+    .delay-1 { animation-delay: 0.1s; }
+    .delay-2 { animation-delay: 0.2s; }
+    .delay-3 { animation-delay: 0.3s; }
+    .delay-4 { animation-delay: 0.4s; }
+    .delay-5 { animation-delay: 0.5s; }
+    .delay-6 { animation-delay: 0.6s; }
+    .delay-7 { animation-delay: 0.7s; }
+    .delay-8 { animation-delay: 0.8s; }
+    .delay-9 { animation-delay: 0.9s; }
+
+    .hero-animate {
+        animation: animationIn 0.8s ease-out both;
+    }
+    .hero-d1 { animation-delay: 0.1s; }
+    .hero-d2 { animation-delay: 0.2s; }
+    .hero-d3 { animation-delay: 0.3s; }
+    .hero-d4 { animation-delay: 0.4s; }
+    .hero-d5 { animation-delay: 0.5s; }
+
+    /* Updated Yellow → #a22426 */
+    .glow-yellow {
+        box-shadow: 0 0 30px rgba(162, 36, 38, 0.25), 0 0 60px rgba(162, 36, 38, 0.08);
+    }
+
+    .card-hover {
+        transition: all 0.3s ease;
+    }
+    .card-hover:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(162, 36, 38, 0.3);
+    }
+
+    .tech-badge {
+        transition: all 0.2s ease;
+    }
+    .tech-badge:hover {
+        background: rgba(162, 36, 38, 0.12);
+        border-color: rgba(162, 36, 38, 0.5);
+        color: #a22426;
+    }
+
+    .nav-blur {
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+    }
+
+    .mobile-menu {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+    .mobile-menu.open {
+        max-height: 400px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    .toast {
+        transform: translateY(100px);
+        opacity: 0;
+        transition: all 0.4s ease;
+    }
+    .toast.show {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .stat-glow {
+        text-shadow: 0 0 40px rgba(162, 36, 38, 0.2);
+    }
+
+    .hero-img-shadow {
+        box-shadow: 0 25px 60px rgba(0, 0, 0, 0.12);
+    }
+
+    .floating-card {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    .cta-glow {
+        box-shadow: 0 0 60px rgba(162, 36, 38, 0.15), 0 20px 60px rgba(0, 0, 0, 0.06);
+    }
+</style>
+</head>
+<body class="font-sans text-gray-900 antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 nav-blur bg-white/90 border-b border-gray-200/60">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 py-5 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-2.5">
+                <div >
+                    
+                </div>
+                    <img class="max-w-40" src="https://www.suretekinfosoft.com/assets/images/logo1.png" alt="" title="">
+            </a>
+
+            <div class="hidden md:flex items-center gap-8">
+                <a href="#services" class="text-gray-500 hover:text-yellow-600 transition-colors text-sm font-medium">Services</a>
+                <a href="#benefits" class="text-gray-500 hover:text-yellow-600 transition-colors text-sm font-medium">Benefits</a>
+                <a href="#solutions" class="text-gray-500 hover:text-yellow-600 transition-colors text-sm font-medium">Solutions</a>
+                <a href="#tech" class="text-gray-500 hover:text-yellow-600 transition-colors text-sm font-medium">Technologies</a>
+                <a href="#contact" 
+   class="bg-[#a22426] hover:bg-[#8e1f21] text-white font-medium text-sm px-6 py-2.5 rounded-full transition-all hover:scale-105 shadow-lg shadow-[#a22426]/20">
+   Free Consultation
+</a>
+            </div>
+
+            <button id="menuToggle" class="md:hidden text-gray-900">
+                <iconify-icon icon="solar:hamburger-menu-linear" class="text-2xl"></iconify-icon>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="mobile-menu md:hidden bg-white/95 border-t border-gray-200/60">
+            <div class="px-6 py-4 flex flex-col gap-4">
+                <a href="#services" class="text-gray-500 hover:text-yellow-600 transition-colors text-sm font-medium py-2">Services</a>
+                <a href="#benefits" class="text-gray-500 hover:text-yellow-600 transition-colors text-sm font-medium py-2">Benefits</a>
+                <a href="#solutions" class="text-gray-500 hover:text-yellow-600 transition-colors text-sm font-medium py-2">Solutions</a>
+                <a href="#tech" class="text-gray-500 hover:text-yellow-600 transition-colors text-sm font-medium py-2">Technologies</a>
+                <a href="#contact" class="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-medium text-sm px-6 py-2.5 rounded-full transition-all text-center">Free Consultation</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-white via-yellow-50/30 to-blue-50/20">
+        <!-- Background decoration -->
+        <div class="absolute inset-0 overflow-hidden pointer-events-none">
+            <div class="absolute top-1/4 left-1/4 w-[600px] h-[600px] bg-yellow-200/30 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-blue-200/20 rounded-full blur-3xl"></div>
+            <div class="absolute inset-0 opacity-[0.03]" style="background-image: linear-gradient(rgba(0,0,0,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.1) 1px, transparent 1px); background-size: 60px 60px;"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 pt-32 pb-24 relative z-10 w-full">
+            <div class="grid lg:grid-cols-2 gap-x-16 gap-y-12 items-center">
+                <!-- Left Content -->
+                <div class="max-w-2xl">
+                    
+
+                    <h1 class=" text-hero-animate hero-d2 font-bold text-[72px] lg:text-[72px] leading-[1.1] tracking-tight mb-8 text-[#222222]" 
+    style="font-family: 'Teko', sans-serif;">
+    Hire Top <span class="text-[#a22426]">AI Developer</span> in the USA
+</h1>
+
+                    <p class="text-lg md:text-lg text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+                    Hire top AI developer in the USA to build intelligent, future-ready solutions. We are a leading provider of AI development services in the USA, helping startups, SMEs, and enterprises leverage artificial intelligence to drive innovation, automation, and business growth.</p>
+                   <p class="text-lg md:text-lg text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+                   As a trusted <b> AI development company in the USA</b>, we specialize in building advanced AI-powered applications to your business needs. From machine learning models to generative AI solutions, our expert developers deliver scalable and high-performance systems aligned with your strategic goals.</p>
+                    <div class="hero-animate hero-d4 flex flex-col sm:flex-row gap-4 mb-12">
+                        <a href="#contact" class="bg-[#a22426] hover:bg-[#8e1f21] text-white font-medium px-8 py-4 rounded-full transition-all hover:scale-105 shadow-xl hadow-[#a22426]/25  text-center">
+                            Get Free Consultation
+                        </a>
+                        
+                    </div>
+
+                    <!-- Stats -->
+          
+                </div>
+
+                <!-- Right Visual -->
+                <div class="hero-animate hero-d4 relative hidden lg:block">
+                    <div class="relative">
+                        <img src="https://picsum.photos/seed/ai-developer-hero/700/600.jpg" alt="AI Development" class="rounded-[2rem] w-full h-[500px] object-cover hero-img-shadow" style="filter: grayscale(10%) sepia(5%);">
+                        <div class="absolute inset-0 rounded-[2rem] bg-gradient-to-t from-white/40 via-transparent to-transparent"></div>
+
+                        <!-- Floating cards -->
+                        <div class="absolute -left-8 top-1/3 bg-white/95 backdrop-blur-md border border-gray-200/60 rounded-2xl p-4 floating-card">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-xl bg-yellow-100 flex items-center justify-center">
+                                    <iconify-icon icon="solar:brain-bold" class="text-yellow-600 text-xl"></iconify-icon>
+                                </div>
+                                <div>
+                                    <div class="text-gray-900 text-sm font-medium">ML Models</div>
+                                    <div class="text-gray-400 text-xs">50+ Deployed</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="absolute -right-6 bottom-1/4 bg-white/95 backdrop-blur-md border border-gray-200/60 rounded-2xl p-4 floating-card">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-xl bg-green-100 flex items-center justify-center">
+                                    <iconify-icon icon="solar:graph-up-bold" class="text-green-600 text-xl"></iconify-icon>
+                                </div>
+                                <div>
+                                    <div class="text-gray-900 text-sm font-medium">98% Accuracy</div>
+                                    <div class="text-gray-400 text-xs">Avg. Performance</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+
+    <!-- Services Section -->
+    <section id="services" class="py-15 px-6 relative bg-gradient-to-b from-white to-gray-50/80">
+        <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-yellow-100/40 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto relative z-10">
+            <div class="text-center mb-16">
+                <h2 class=" text-hero-animate hero-d2 font-bold text-[72px] lg:text-[72px] leading-[1.1] tracking-tight mb-8 text-[#222222]" 
+    style="font-family: 'Teko', sans-serif;">
+                    Our AI Development<br><span class="text-[#a22426]">Services</span> in the USA
+                </h2>
+                <p class="animate-on-scroll delay-3 text-gray-500 text-lg max-w-2xl mx-auto leading-relaxed">
+                    When you <b>hire UI/UX designers in the USA</b> from our team, you get <br>end-to-end design expertise: </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="animate-on-scroll delay-1 card-hover bg-white border border-gray-100 rounded-[1.5rem] p-8 group shadow-sm">
+                    <div class="w-14 h-14 rounded-2xl bg-yellow-50 flex items-center justify-center mb-6 group-hover:bg-yellow-100 transition-colors">
+                        <iconify-icon icon="solar:code-square-bold" class="text-yellow-500 text-2xl"></iconify-icon>
+                    </div>
+                    <h3 class="font-dm-sans font-medium text-xl tracking-tight mb-3 text-gray-900">User research and persona development</h3>
+                   
+                </div>
+
+                <div class="animate-on-scroll delay-2 card-hover bg-white border border-gray-100 rounded-[1.5rem] p-8 group shadow-sm">
+                    <div class="w-14 h-14 rounded-2xl bg-blue-50 flex items-center justify-center mb-6 group-hover:bg-blue-100 transition-colors">
+                        <iconify-icon icon="solar:chart-2-bold" class="text-blue-500 text-2xl"></iconify-icon>
+                    </div>
+                    <h3 class="font-dm-sans font-medium text-xl tracking-tight mb-3 text-gray-900">Wireframing and interactive prototyping</h3>
+                    
+                </div>
+
+                <div class="animate-on-scroll delay-3 card-hover bg-white border border-gray-100 rounded-[1.5rem] p-8 group shadow-sm">
+                    <div class="w-14 h-14 rounded-2xl bg-purple-50 flex items-center justify-center mb-6 group-hover:bg-purple-100 transition-colors">
+                        <iconify-icon icon="solar:magic-stick-3-bold" class="text-purple-500 text-2xl"></iconify-icon>
+                    </div>
+                    <h3 class="font-dm-sans font-medium text-xl tracking-tight mb-3 text-gray-900">UI design for web and mobile applications</h3>
+                  
+                </div>
+
+                <div class="animate-on-scroll delay-4 card-hover bg-white border border-gray-100 rounded-[1.5rem] p-8 group shadow-sm">
+                    <div class="w-14 h-14 rounded-2xl bg-green-50 flex items-center justify-center mb-6 group-hover:bg-green-100 transition-colors">
+                        <iconify-icon icon="solar:chat-round-dots-bold" class="text-green-500 text-2xl"></iconify-icon>
+                    </div>
+                    <h3 class="font-dm-sans font-medium text-xl tracking-tight mb-3 text-gray-900">UX strategy and user journey mapping</h3>
+                </div>
+
+                <div class="animate-on-scroll delay-5 card-hover bg-white border border-gray-100 rounded-[1.5rem] p-8 group shadow-sm">
+                    <div class="w-14 h-14 rounded-2xl bg-orange-50 flex items-center justify-center mb-6 group-hover:bg-orange-100 transition-colors">
+                        <iconify-icon icon="solar:graph-up-bold" class="text-orange-500 text-2xl"></iconify-icon>
+                    </div>
+                    <h3 class="font-dm-sans font-medium text-xl tracking-tight mb-3 text-gray-900">Usability testing and UX audits</h3>
+                    </div>
+
+                <div class="animate-on-scroll delay-6 card-hover bg-white border border-gray-100 rounded-[1.5rem] p-8 group shadow-sm">
+                    <div class="w-14 h-14 rounded-2xl bg-cyan-50 flex items-center justify-center mb-6 group-hover:bg-cyan-100 transition-colors">
+                        <iconify-icon icon="solar:document-text-bold" class="text-cyan-500 text-2xl"></iconify-icon>
+                    </div>
+                    <h3 class="font-dm-sans font-medium text-xl tracking-tight mb-3 text-gray-900">Design system creation and branding alignment</h3>
+                </div>
+
+                <div class="animate-on-scroll delay-7 card-hover bg-white border border-gray-100 rounded-[1.5rem] p-8 group shadow-sm">
+                    <div class="w-14 h-14 rounded-2xl bg-rose-50 flex items-center justify-center mb-6 group-hover:bg-rose-100 transition-colors">
+                        <iconify-icon icon="solar:eye-bold" class="text-rose-500 text-2xl"></iconify-icon>
+                    </div>
+                    <h3 class="font-dm-sans font-medium text-xl tracking-tight mb-3 text-gray-900">SaaS product design and dashboard UI</h3>
+                  </div>
+
+                <div class="animate-on-scroll delay-8 card-hover bg-white border border-gray-100 rounded-[1.5rem] p-8 group shadow-sm">
+                    <div class="w-14 h-14 rounded-2xl bg-indigo-50 flex items-center justify-center mb-6 group-hover:bg-indigo-100 transition-colors">
+                        <iconify-icon icon="solar:plug-circle-bold" class="text-indigo-500 text-2xl"></iconify-icon>
+                    </div>
+                    <h3 class="font-dm-sans font-medium text-xl tracking-tight mb-3 text-gray-900">Redesign and optimization of existing interfaces</h3>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-24 px-6 relative bg-gray-50/80">
+        <div class="absolute bottom-0 left-0 w-[400px] h-[400px] bg-blue-100/30 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <!-- Left Image -->
+                <div class="animate-on-scroll delay-1 relative">
+                    <img src="https://picsum.photos/seed/ai-business-benefit/700/500.jpg" alt="AI Business Benefits" class="rounded-[2rem] w-full h-[450px] object-cover hero-img-shadow" style="filter: grayscale(10%) sepia(5%);">
+                    <div class="absolute inset-0 rounded-[2rem] bg-gradient-to-r from-white/30 to-transparent"></div>
+                    <div class="absolute bottom-8 left-8 right-8">
+                        <div class="bg-white/95 backdrop-blur-md border border-gray-200/60 rounded-2xl p-6 floating-card">
+                            <div class="flex items-center gap-4">
+                                <div class="w-12 h-12 rounded-xl bg-green-100 flex items-center justify-center flex-shrink-0">
+                                    <iconify-icon icon="solar:graph-up-bold" class="text-green-600 text-2xl"></iconify-icon>
+                                </div>
+                                <div>
+                                    <div class="text-gray-900 font-medium">Average ROI Increase</div>
+                                    <div class="text-yellow-500 font-dm-sans font-light text-2xl">3.5x</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Content -->
+                <div>
+                    <h2 class="animate-on-scroll delay-2 font-teko font-bold text-3xl lg:text-[3rem] tracking-tight leading-tight mb-4 text-gray-900" style="font-family: 'Teko', sans-serif;">
+                        Business Benefits of Hiring<br><span class="text-[#a22426]">AI Developers</span> in the USA
+                    </h2>
+                   <p class="animate-on-scroll delay-3 text-gray-500  text-[18px] leading-relaxed mb-10" 
+   style="font-family: 'Poppins', sans-serif;">
+  Investing in professional <b>UI/UX design services in the USA</b> delivers tangible business outcomes:</p>
+
+                    <div class="space-y-5">
+                        <div class="animate-on-scroll delay-3 flex items-center gap-4 group">
+    <div class="w-10 h-10 rounded-xl bg-[#a22426]/10 flex items-center justify-center flex-shrink-0 group-hover:bg-[#a22426]/20 transition-colors">
+        <iconify-icon icon="solar:bolt-bold" class="text-[#a22426] text-lg"></iconify-icon>
+    </div>
+    <div>
+        <h4 class="text-[#222222] font-medium mb-0">
+            Higher conversion rates through optimized user journeys
+        </h4>
+    </div>
+</div>
+
+<div class="animate-on-scroll delay-4 flex items-center gap-4 group">
+    <div class="w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center flex-shrink-0 group-hover:bg-blue-100 transition-colors">
+        <iconify-icon icon="solar:database-bold" class="text-blue-500 text-lg"></iconify-icon>
+    </div>
+    <div>
+        <h4 class="text-[#222222] font-medium mb-0">
+            Improved user engagement and retention
+        </h4>
+    </div>
+</div>
+
+<div class="animate-on-scroll delay-5 flex items-center gap-4 group">
+    <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center flex-shrink-0 group-hover:bg-green-100 transition-colors">
+        <iconify-icon icon="solar:rocket-2-bold" class="text-green-500 text-lg"></iconify-icon>
+    </div>
+    <div>
+        <h4 class="text-[#222222] font-medium mb-0">
+            Faster product adoption with intuitive interfaces
+        </h4>
+    </div>
+</div>
+
+<div class="animate-on-scroll delay-6 flex items-center gap-4 group">
+    <div class="w-10 h-10 rounded-xl bg-purple-50 flex items-center justify-center flex-shrink-0 group-hover:bg-purple-100 transition-colors">
+        <iconify-icon icon="solar:user-heart-bold" class="text-purple-500 text-lg"></iconify-icon>
+    </div>
+    <div>
+        <h4 class="text-[#222222] font-medium mb-0">
+            Reduced development costs by validating ideas early
+        </h4>
+    </div>
+</div>
+
+                        <div class="animate-on-scroll delay-7 flex items-center gap-4 group">
+    <div class="w-10 h-10 rounded-xl bg-orange-50 flex items-center justify-center flex-shrink-0 group-hover:bg-orange-100 transition-colors">
+        <iconify-icon icon="solar:wallet-money-bold" class="text-orange-500 text-lg"></iconify-icon>
+    </div>
+    <div>
+        <h4 class="text-gray-900 font-medium mb-0">
+            Data-driven design decisions for better performance
+        </h4>
+    </div>
+</div>
+
+                        <div class="animate-on-scroll delay-8 flex items-center gap-4 group">
+    <div class="w-10 h-10 rounded-xl bg-orange-50 flex items-center justify-center flex-shrink-0 group-hover:bg-orange-100 transition-colors">
+        <iconify-icon icon="solar:cup-star-bold" class="text-cyan-500 text-lg"></iconify-icon>
+    </div>
+    <div>
+        <h4 class="text-gray-900 font-medium mb-0">
+            Strong brand identity and competitive advantage
+        </h4>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="tech" class="py-24 px-6 relative border-t border-gray-100 bg-gradient-to-b from-white to-yellow-50/30">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-10">
+            <h2 class="animate-on-scroll delay-2 font-bold text-3xl lg:text-[3.75rem] tracking-tight leading-tight mb- text-[#222222]" 
+    style="font-family: 'Teko', sans-serif;">
+    Technologies<span class="text-[#a22426]"> We Use</span>
+</h2>
+               <p class="animate-on-scroll delay-3 text-gray-500 text-[18px] max-w-2xl mx-auto leading-relaxed" 
+   style="font-family: 'Poppins', sans-serif;">
+   We use industry-leading tools and technologies for <b>UI/UX design in the USA:</b>
+</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="animate-on-scroll delay-2 bg-white border border-gray-100 rounded-[1.5rem] p-8 shadow-sm">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 rounded-xl bg-yellow-50 flex items-center justify-center">
+                            <iconify-icon icon="solar:code-bold" class="text-yellow-500 text-lg"></iconify-icon>
+                        </div>
+                        <h3 class="font-dm-sans font-medium text-lg text-gray-900">Languages</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">Python</span>
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">R</span>
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">Julia</span>
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">SQL</span>
+                    </div>
+                </div>
+
+                <div class="animate-on-scroll delay-3 bg-white border border-gray-100 rounded-[1.5rem] p-8 shadow-sm">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center">
+                            <iconify-icon icon="solar:widget-5-bold" class="text-blue-500 text-lg"></iconify-icon>
+                        </div>
+                        <h3 class="font-dm-sans font-medium text-lg text-gray-900">Frameworks</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">TensorFlow</span>
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">PyTorch</span>
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">Scikit-learn</span>
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">Keras</span>
+                    </div>
+                </div>
+
+                <div class="animate-on-scroll delay-4 bg-white border border-gray-100 rounded-[1.5rem] p-8 shadow-sm">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 rounded-xl bg-purple-50 flex items-center justify-center">
+                            <iconify-icon icon="solar:cpu-bolt-bold" class="text-purple-500 text-lg"></iconify-icon>
+                        </div>
+                        <h3 class="font-dm-sans font-medium text-lg text-gray-900">AI Platforms</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">OpenAI APIs</span>
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">LangChain</span>
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">Hugging Face</span>
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">spaCy</span>
+                    </div>
+                </div>
+
+                <div class="animate-on-scroll delay-5 bg-white border border-gray-100 rounded-[1.5rem] p-8 shadow-sm">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 rounded-xl bg-cyan-50 flex items-center justify-center">
+                            <iconify-icon icon="solar:cloud-bold" class="text-cyan-500 text-lg"></iconify-icon>
+                        </div>
+                        <h3 class="font-dm-sans font-medium text-lg text-gray-900">Cloud AI</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">AWS AI</span>
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">Azure AI</span>
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">Google AI</span>
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">Vertex AI</span>
+                    </div>
+                </div>
+
+                <div class="animate-on-scroll delay-6 bg-white border border-gray-100 rounded-[1.5rem] p-8 shadow-sm">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center">
+                            <iconify-icon icon="solar:server-bold" class="text-green-500 text-lg"></iconify-icon>
+                        </div>
+                        <h3 class="font-dm-sans font-medium text-lg text-gray-900">Big Data</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">Hadoop</span>
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">Spark</span>
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">Kafka</span>
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">Elasticsearch</span>
+                    </div>
+                </div>
+
+                <div class="animate-on-scroll delay-7 bg-white border border-gray-100 rounded-[1.5rem] p-8 shadow-sm">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 rounded-xl bg-orange-50 flex items-center justify-center">
+                            <iconify-icon icon="solar:refresh-circle-bold" class="text-orange-500 text-lg"></iconify-icon>
+                        </div>
+                        <h3 class="font-dm-sans font-medium text-lg text-gray-900">MLOps & DevOps</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">Docker</span>
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">Kubernetes</span>
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">MLflow</span>
+                        <span class="tech-badge px-4 py-2 rounded-full border border-gray-200 text-gray-600 text-sm font-medium cursor-default bg-white">CI/CD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="py-24 px-6 relative border-t border-gray-100 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <div class="animate-on-scroll delay-1 inline-flex items-center gap-2 bg-yellow-100 border border-yellow-300/50 rounded-full px-4 py-1.5 mb-6">
+                    <span class="text-yellow-700 text-xs font-semibold tracking-widest uppercase">How We Work</span>
+                </div>
+                <h2 class="animate-on-scroll delay-2 font-dm-sans font-light text-3xl lg:text-[3.75rem] tracking-tight leading-tight mb-6 text-gray-900">
+                    Our Development<br><span class="text-yellow-500">Process</span>
+                </h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="animate-on-scroll delay-2 relative bg-white border border-gray-100 rounded-[1.5rem] p-8 text-center shadow-sm">
+                    <div class="w-14 h-14 rounded-full bg-yellow-400 text-gray-900 flex items-center justify-center mx-auto mb-6 font-dm-sans font-bold text-xl shadow-lg shadow-yellow-400/20">1</div>
+                    <h3 class="font-dm-sans font-medium text-lg mb-2 text-gray-900">Discovery</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Understand your business goals, data landscape, and define the AI strategy.</p>
+                    <div class="hidden lg:block absolute top-1/2 -right-3 text-gray-200">
+                        <iconify-icon icon="solar:arrow-right-linear" class="text-2xl"></iconify-icon>
+                    </div>
+                </div>
+
+                <div class="animate-on-scroll delay-3 relative bg-white border border-gray-100 rounded-[1.5rem] p-8 text-center shadow-sm">
+                    <div class="w-14 h-14 rounded-full bg-yellow-400 text-gray-900 flex items-center justify-center mx-auto mb-6 font-dm-sans font-bold text-xl shadow-lg shadow-yellow-400/20">2</div>
+                    <h3 class="font-dm-sans font-medium text-lg mb-2 text-gray-900">Development</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Build, train, and test AI models using agile sprints with continuous feedback.</p>
+                    <div class="hidden lg:block absolute top-1/2 -right-3 text-gray-200">
+                        <iconify-icon icon="solar:arrow-right-linear" class="text-2xl"></iconify-icon>
+                    </div>
+                </div>
+
+                <div class="animate-on-scroll delay-4 relative bg-white border border-gray-100 rounded-[1.5rem] p-8 text-center shadow-sm">
+                    <div class="w-14 h-14 rounded-full bg-yellow-400 text-gray-900 flex items-center justify-center mx-auto mb-6 font-dm-sans font-bold text-xl shadow-lg shadow-yellow-400/20">3</div>
+                    <h3 class="font-dm-sans font-medium text-lg mb-2 text-gray-900">Deployment</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Deploy AI solutions to production with scalable cloud infrastructure.</p>
+                    <div class="hidden lg:block absolute top-1/2 -right-3 text-gray-200">
+                        <iconify-icon icon="solar:arrow-right-linear" class="text-2xl"></iconify-icon>
+                    </div>
+                </div>
+
+                <div class="animate-on-scroll delay-5 bg-white border border-gray-100 rounded-[1.5rem] p-8 text-center shadow-sm">
+                    <div class="w-14 h-14 rounded-full bg-yellow-400 text-gray-900 flex items-center justify-center mx-auto mb-6 font-dm-sans font-bold text-xl shadow-lg shadow-yellow-400/20">4</div>
+                    <h3 class="font-dm-sans font-medium text-lg mb-2 text-gray-900">Optimization</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Monitor, fine-tune, and continuously improve AI performance post-launch.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Contact Section -->
+    <section id="contact" class="py-24 px-6 relative bg-gradient-to-b from-yellow-50/40 to-white">
+        <div class="absolute inset-0 overflow-hidden pointer-events-none">
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-yellow-200/30 rounded-full blur-3xl"></div>
+        </div>
+        <div class="max-w-4xl mx-auto relative z-10">
+            <div class="bg-white border border-yellow-200/50 rounded-[2rem] p-8 lg:p-16 cta-glow">
+                <div class="text-center mb-12">
+                    <div class="animate-on-scroll delay-1 inline-flex items-center gap-2 bg-yellow-100 border border-yellow-300/50 rounded-full px-4 py-1.5 mb-6">
+                        <iconify-icon icon="solar:letter-bold" class="text-yellow-600 text-sm"></iconify-icon>
+                        <span class="text-yellow-700 text-xs font-semibold tracking-widest uppercase">Get Started</span>
+                    </div>
+                    <h2 class="animate-on-scroll delay-2 font-dm-sans font-light text-3xl lg:text-[3rem] tracking-tight leading-tight mb-4 text-gray-900">
+                        Get Started with the Best<br><span class="text-yellow-500">AI Developer</span> in the USA
+                    </h2>
+                    <p class="animate-on-scroll delay-3 text-gray-500 text-lg leading-relaxed">
+                        Partner with a trusted AI development company to build intelligent, scalable, and future-ready AI solutions.
+                    </p>
+                </div>
+
+                <form id="contactForm" class="animate-on-scroll delay-4 space-y-5">
+                    <div class="grid md:grid-cols-2 gap-5">
+                        <div>
+                            <label class="text-sm text-gray-500 mb-2 block">Full Name</label>
+                            <input type="text" required placeholder="John Smith" class="w-full bg-gray-50 border border-gray-200 rounded-xl px-5 py-3.5 text-gray-900 placeholder:text-gray-300 focus:outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/10 transition-all text-sm">
+                        </div>
+                        <div>
+                            <label class="text-sm text-gray-500 mb-2 block">Email Address</label>
+                            <input type="email" required placeholder="john@company.com" class="w-full bg-gray-50 border border-gray-200 rounded-xl px-5 py-3.5 text-gray-900 placeholder:text-gray-300 focus:outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/10 transition-all text-sm">
+                        </div>
+                    </div>
+                    <div class="grid md:grid-cols-2 gap-5">
+                        <div>
+                            <label class="text-sm text-gray-500 mb-2 block">Company</label>
+                            <input type="text" placeholder="Your Company" class="w-full bg-gray-50 border border-gray-200 rounded-xl px-5 py-3.5 text-gray-900 placeholder:text-gray-300 focus:outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/10 transition-all text-sm">
+                        </div>
+                        <div>
+                            <label class="text-sm text-gray-500 mb-2 block">Service Needed</label>
+                            <select class="w-full bg-gray-50 border border-gray-200 rounded-xl px-5 py-3.5 text-gray-500 focus:outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/10 transition-all text-sm appearance-none cursor-pointer" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22><path fill=%22%239ca3af%22 d=%22m12 15.4l-6-6L7.4 8l4.6 4.6L16.6 8L18 9.4z%22/></svg>'); background-repeat: no-repeat; background-position: right 16px center;">
+                                <option value="">Select a service</option>
+                                <option value="custom-ai">Custom AI Development</option>
+                                <option value="ml-models">Machine Learning Models</option>
+                                <option value="gen-ai">Generative AI & LLMs</option>
+                                <option value="chatbots">AI Chatbots</option>
+                                <option value="nlp">NLP Solutions</option>
+                                <option value="computer-vision">Computer Vision</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="text-sm text-gray-500 mb-2 block">Project Description</label>
+                        <textarea rows="4" placeholder="Tell us about your AI project requirements..." class="w-full bg-gray-50 border border-gray-200 rounded-xl px-5 py-3.5 text-gray-900 placeholder:text-gray-300 focus:outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/10 transition-all text-sm resize-none"></textarea>
+                    </div>
+                    <div class="flex flex-col sm:flex-row items-center gap-4 pt-2">
+                        <button type="submit" class="w-full sm:w-auto bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-medium px-10 py-4 rounded-full transition-all hover:scale-105 shadow-xl shadow-yellow-400/25 text-base">
+                            Get Free Consultation
+                        </button>
+                        <span class="text-gray-400 text-sm">No spam. We respond within 24 hours.</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-100 py-16 px-6 bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div>
+                    <a href="#" class="flex items-center gap-2.5 mb-5">
+                        <div class="w-9 h-9 rounded-xl bg-yellow-400 flex items-center justify-center">
+                            <iconify-icon icon="solar:cpu-bolt-bold" class="text-gray-900 text-lg"></iconify-icon>
+                        </div>
+                        <span class="font-dm-sans font-semibold text-lg tracking-tight">AIDev<span class="text-yellow-400">USA</span></span>
+                    </a>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                        A leading AI development company in the USA, building intelligent solutions for startups and enterprises.
+                    </p>
+                    <div class="flex gap-3">
+                        <a href="#" class="w-9 h-9 rounded-full border border-white/10 flex items-center justify-center text-gray-400 hover:text-yellow-400 hover:border-yellow-400/30 transition-all">
+                            <iconify-icon icon="simple-icons:linkedin" class="text-sm"></iconify-icon>
+                        </a>
+                        <a href="#" class="w-9 h-9 rounded-full border border-white/10 flex items-center justify-center text-gray-400 hover:text-yellow-400 hover:border-yellow-400/30 transition-all">
+                            <iconify-icon icon="simple-icons:x" class="text-sm"></iconify-icon>
+                        </a>
+                        <a href="#" class="w-9 h-9 rounded-full border border-white/10 flex items-center justify-center text-gray-400 hover:text-yellow-400 hover:border-yellow-400/30 transition-all">
+                            <iconify-icon icon="simple-icons:github" class="text-sm"></iconify-icon>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="font-dm-sans font-medium text-white mb-5">Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#services" class="text-gray-400 hover:text-yellow-400 transition-colors text-sm">Custom AI Development</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-yellow-400 transition-colors text-sm">Machine Learning</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-yellow-400 transition-colors text-sm">Generative AI & LLMs</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-yellow-400 transition-colors text-sm">Computer Vision</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-yellow-400 transition-colors text-sm">NLP Solutions</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-dm-sans font-medium text-white mb-5">Solutions</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#solutions" class="text-gray-400 hover:text-yellow-400 transition-colors text-sm">Recommendation Engines</a></li>
+                        <li><a href="#solutions" class="text-gray-400 hover:text-yellow-400 transition-colors text-sm">Fraud Detection</a></li>
+                        <li><a href="#solutions" class="text-gray-400 hover:text-yellow-400 transition-colors text-sm">Predictive Analytics</a></li>
+                        <li><a href="#solutions" class="text-gray-400 hover:text-yellow-400 transition-colors text-sm">AI Chatbots</a></li>
+                        <li><a href="#solutions" class="text-gray-400 hover:text-yellow-400 transition-colors text-sm">Intelligent Automation</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-dm-sans font-medium text-white mb-5">Contact</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-2.5 text-gray-400 text-sm">
+                            <iconify-icon icon="solar:letter-linear" class="text-yellow-400 text-base"></iconify-icon>
+                            hello@aidevusa.com
+                        </li>
+                        <li class="flex items-center gap-2.5 text-gray-400 text-sm">
+                            <iconify-icon icon="solar:phone-linear" class="text-yellow-400 text-base"></iconify-icon>
+                            +1 (555) 123-4567
+                        </li>
+                        <li class="flex items-start gap-2.5 text-gray-400 text-sm">
+                            <iconify-icon icon="solar:map-point-linear" class="text-yellow-400 text-base mt-0.5"></iconify-icon>
+                            San Francisco, CA, USA
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+                <p class="text-gray-500 text-sm">&copy; 2025 AIDevUSA. All rights reserved.</p>
+                <div class="flex gap-6">
+                    <a href="#" class="text-gray-500 hover:text-yellow-400 transition-colors text-sm">Privacy Policy</a>
+                    <a href="#" class="text-gray-500 hover:text-yellow-400 transition-colors text-sm">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast fixed bottom-6 right-6 z-50 bg-white border border-green-200 rounded-2xl px-6 py-4 shadow-2xl flex items-center gap-3">
+        <div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+            <iconify-icon icon="solar:check-circle-bold" class="text-green-600 text-lg"></iconify-icon>
+        </div>
+        <div>
+            <div class="text-gray-900 text-sm font-medium">Request Submitted!</div>
+            <div class="text-gray-400 text-xs">We'll get back to you within 24 hours.</div>
+        </div>
+    </div>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+        let menuOpen = false;
+
+        menuToggle.addEventListener('click', () => {
+            menuOpen = !menuOpen;
+            mobileMenu.classList.toggle('open', menuOpen);
+            menuToggle.innerHTML = menuOpen
+                ? '<iconify-icon icon="solar:close-circle-linear" class="text-2xl"></iconify-icon>'
+                : '<iconify-icon icon="solar:hamburger-menu-linear" class="text-2xl"></iconify-icon>';
+        });
+
+        // Close mobile menu on link click
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                menuOpen = false;
+                mobileMenu.classList.remove('open');
+                menuToggle.innerHTML = '<iconify-icon icon="solar:hamburger-menu-linear" class="text-2xl"></iconify-icon>';
+            });
+        });
+
+        // Scroll animation observer
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: '0px 0px -5% 0px'
+        });
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Navbar background on scroll
+        const nav = document.querySelector('nav');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                nav.classList.add('bg-white/95');
+                nav.classList.remove('bg-white/90');
+                nav.style.boxShadow = '0 1px 3px rgba(0,0,0,0.05)';
+            } else {
+                nav.classList.remove('bg-white/95');
+                nav.classList.add('bg-white/90');
+                nav.style.boxShadow = 'none';
+            }
+        });
+
+        // Form submission
+        const form = document.getElementById('contactForm');
+        const toast = document.getElementById('toast');
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            toast.classList.add('show');
+            form.reset();
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 4000);
+        });
+    </script>
+</body>
+</html>

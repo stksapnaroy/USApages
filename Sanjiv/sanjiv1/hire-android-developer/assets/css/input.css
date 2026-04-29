@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap);
+@import "tailwindcss";
+
+@theme {
+    /* Fonts */
+    --font-teko: 'Teko', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+
+    /* Colors */
+    --color-primary: #a22426;
+    --color-primary-dk: #7a1a1c;
+
+    /* Keyframes */
+    @keyframes fadeUp {
+        from {
+            opacity: 0;
+            transform: translateY(28px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes marquee {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(-50%);
+        }
+    }
+
+    @keyframes pulse2 {
+
+        0%,
+        100% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0.35;
+        }
+    }
+
+    @keyframes bounce2 {
+
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(6px);
+        }
+    }
+
+    /* Animations */
+    --animate-fade-1: fadeUp .75s ease .10s both;
+    --animate-fade-2: fadeUp .75s ease .25s both;
+    --animate-fade-3: fadeUp .75s ease .40s both;
+    --animate-fade-4: fadeUp .75s ease .55s both;
+    --animate-fade-5: fadeUp .75s ease .70s both;
+
+    --animate-marquee: marquee 28s linear infinite;
+    --animate-pulse2: pulse2 2s ease-in-out infinite;
+    --animate-bounce2: bounce2 1.4s ease-in-out infinite;
+}
+
+.hero-title {
+    font-size: clamp(58px, 9vw, 122px);
+    line-height: .88;
+    letter-spacing: -2px;
+}
+
+.sec-title {
+    font-size: clamp(36px, 4.2vw, 62px);
+    line-height: 1.05;
+    letter-spacing: -.5px;
+}
+
+.cta-title {
+    font-size: clamp(48px, 7vw, 96px);
+    line-height: .9;
+    letter-spacing: -2px;
+}
+
+.dot-grid-bg {
+    background-image: radial-gradient(rgba(255, 255, 255, .5) 1px, transparent 1px);
+    background-size: 28px 28px;
+}
+
+.grid-lines {
+    background-image:
+        linear-gradient(rgba(162, 36, 38, .045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(162, 36, 38, .045) 1px, transparent 1px);
+    background-size: 72px 72px;
+}
+
+/* hover helpers Tailwind CDN can't do */
+.svc-bar {
+    width: 0;
+    height: 3px;
+    background: #a22426;
+    transition: width .5s ease;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.svc-card:hover .svc-bar {
+    width: 100%;
+}
+
+.svc-card:hover {
+    border-color: #a22426;
+    box-shadow: 0 16px 40px rgba(162, 36, 38, .1);
+}
+
+.svc-arrow {
+    opacity: 0;
+    transform: translateX(-6px);
+    transition: all .3s;
+}
+
+.svc-card:hover .svc-arrow {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.app-card:hover {
+    background: #a22426;
+    border-color: #a22426;
+    color: #fff;
+}
+
+.app-card:hover .app-sub {
+    color: rgba(255, 255, 255, .7);
+}
+
+.pill:hover {
+    border-color: #a22426;
+    color: #a22426;
+}
+
+.ben-card:hover {
+    border-color: rgba(162, 36, 38, .3);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, .07);
+}
+
+.nav-link:hover {
+    color: #0d0d0d;
+}
+
+.footer-link:hover {
+    color: #fff;
+}
+
+.btn-fill:hover {
+    background: #7a1a1c;
+    border-color: #7a1a1c;
+}
+
+.btn-ghost:hover {
+    border-color: #fff;
+}
+
+.btn-outline:hover {
+    border-color: #a22426;
+    color: #a22426;
+}
+
+.img-zoom img {
+    transition: transform .5s ease;
+}
+
+.img-zoom:hover img {
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+}

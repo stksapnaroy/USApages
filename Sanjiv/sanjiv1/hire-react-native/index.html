@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>React Native Developers USA | Suretek Infosoft</title>
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/output.css">
+
+  <style>
+
+  </style>
+</head>
+
+<body class="font-poppins">
+
+  <!-- ══════════════════ NAV ══════════════════ -->
+  <nav class="fixed top-0 left-0 right-0 z-50 nav-blur bg-white/70 border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-2 lg:px-6 py-4 flex items-center justify-between">
+      <img src="assets/images/logo.png" alt="logo" class="h-10">
+      <div class="hidden md:flex items-center gap-8 text-sm font-poppins text-black/70">
+        <a href="#services" class="hover:text-primary transition-colors">Services</a>
+        <a href="#why" class="hover:text-primary transition-colors">Why Us</a>
+        <a href="#tech" class="hover:text-primary transition-colors">Tech Stack</a>
+        <a href="#process" class="hover:text-primary transition-colors">Process</a>
+      </div>
+      <a href="#contact"
+        class="bg-primary hover:bg-primary-dark text-white font-poppins text-sm font-medium px-5 py-2.5 rounded-2xl transition-colors">
+        Hire Developers
+      </a>
+    </div>
+  </nav>
+
+  <!-- ══════════════════ HERO ══════════════════ -->
+  <section class="hero-pattern dot-grid min-h-screen flex items-center pt-20 relative overflow-hidden">
+    <div class="dot-bg absolute inset-0 pointer-events-none"></div>
+    <!-- Decorative circles -->
+    <div class="absolute top-32 right-16 w-72 h-72 rounded-full border border-primary/20 animate-pulse-slow"></div>
+    <div class="absolute top-44 right-28 w-44 h-44 rounded-full border border-primary/30 animate-pulse-slow"></div>
+    <div class="absolute bottom-20 left-8 w-56 h-56 rounded-full border border-white/5"></div>
+
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center py-24">
+      <!-- Left -->
+      <div class="space-y-8">
+        <div class="inline-flex items-center gap-2 bg-primary/10 border border-primary/30 rounded-full px-4 py-1.5">
+          <span class="w-2 h-2 rounded-full bg-primary animate-pulse-slow inline-block"></span>
+          <span class="text-primary text-xs font-poppins font-medium tracking-widest uppercase">USA-Based Experts</span>
+        </div>
+        <h1 class="font-teko text-7xl md:text-8xl leading-none tracking-wide">
+          REACT NATIVE<br />
+          <span class="text-primary">DEVELOPERS</span><br />
+          IN THE USA
+        </h1>
+        <p class="font-poppins text-gray-700/60 text-base leading-relaxed max-w-md">
+          We connect businesses with expert React Native developers who build high-performance cross-platform mobile
+          apps — faster, smarter, and at scale.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#contact"
+            class="bg-primary hover:bg-primary-dark text-white font-poppins font-medium px-7 py-3.5 rounded-2xl transition-all hover:scale-105 inline-block">
+            Start Your Project
+          </a>
+          <a href="#services"
+            class="border-2 border-primary-dark/50 hover:border-primary text-primary font-poppins font-medium px-7 py-3.5 rounded-2xl transition-all hover:bg-white/5 inline-block">
+            Explore Services
+          </a>
+        </div>
+      </div>
+
+      <!-- Right – phone mockup -->
+      <div class="flex justify-center animate-float">
+        <div class="phone-glow relative">
+          <div
+            class="w-64 h-130 bg-zinc-900 rounded-[3rem] border-4 border-zinc-700 overflow-hidden shadow-2xl relative">
+            <!-- Notch -->
+            <div class="absolute top-0 left-1/2 -translate-x-1/2 w-24 h-6 bg-zinc-900 rounded-b-2xl z-10"></div>
+            <!-- Screen content -->
+            <img src="assets/images/mobile-mockup.jfif" alt="Mobile App"
+              class="w-full h-full object-cover opacity-80" />
+            <div class="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent"></div>
+            <!-- Bottom overlay text on phone -->
+            <div class="absolute bottom-8 left-5 right-5">
+              <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-3 border border-white/20">
+                <div class="flex items-center gap-2 mb-1.5">
+                  <div class="w-2 h-2 rounded-full bg-green-400"></div>
+                  <span class="text-white/80 text-xs font-poppins">App Live</span>
+                </div>
+                <div class="font-teko text-2xl text-white leading-none">Cross-Platform</div>
+                <div class="text-white/50 text-xs font-poppins">iOS & Android — one codebase</div>
+              </div>
+            </div>
+          </div>
+          <!-- Floating badges -->
+          <div class="absolute -left-12 top-24 bg-black border border-primary/40 rounded-2xl px-4 py-2.5 shadow-lg">
+            <div class="font-teko text-xl text-primary leading-none">iOS + Android</div>
+            <div class="text-white/50 text-xs font-poppins">Single codebase</div>
+          </div>
+          <div class="absolute -right-14 bottom-32 bg-black border border-white/20 rounded-2xl px-4 py-2.5 shadow-lg">
+            <div class="font-teko text-xl text-white leading-none">2× Faster</div>
+            <div class="text-white/50 text-xs font-poppins">Time to market</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ SERVICES ══════════════════ -->
+  <section id="services" class="bg-neutral-50 py-28 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="mb-16 reveal">
+        <p class="text-primary font-poppins text-xs tracking-widest uppercase font-medium">What We Build</p>
+        <h2 class="font-teko text-6xl mt-2 red-line">OUR SERVICES</h2>
+        <p class="text-black/50 font-poppins text-base mt-5 max-w-lg">End-to-end React Native development expertise from
+          concept to deployment.</p>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+        <!-- Service cards -->
+        <div class="service-card reveal bg-primary/10 border border-white/10 rounded-3xl p-7 group">
+          <div
+            class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors">
+            <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="font-teko text-3xl mb-2">Custom App Development</h3>
+          <p class="text-primary-dark font-poppins text-base leading-relaxed">Tailored React Native apps built from the
+            ground
+            up for your unique business needs.</p>
+        </div>
+
+        <div class="service-card reveal bg-slate-100 border border-slate-300 rounded-3xl p-7 group">
+          <div
+            class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors">
+            <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18" />
+            </svg>
+          </div>
+          <h3 class="font-teko text-3xl mb-2">Cross-Platform Development</h3>
+          <p class="text-black font-poppins text-base leading-relaxed">One codebase, two platforms — iOS and Android
+            shipped simultaneously.</p>
+        </div>
+
+        <div class="service-card reveal bg-primary/10 border border-white/10 rounded-3xl p-7 group">
+          <div
+            class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors">
+            <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
+            </svg>
+          </div>
+          <h3 class="font-teko text-3xl mb-2">UI/UX Design</h3>
+          <p class="text-primary-dark font-poppins text-base leading-relaxed">Pixel-perfect, native-feeling interfaces
+            that
+            users love to interact with.</p>
+        </div>
+
+        <div class="service-card reveal bg-slate-100 border border-slate-300 rounded-3xl p-7 group">
+          <div
+            class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors">
+            <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+            </svg>
+          </div>
+          <h3 class="font-teko text-3xl mb-2">App Migration</h3>
+          <p class="text-black font-poppins text-base leading-relaxed">Migrate your existing native app to React Native
+            without losing performance.</p>
+        </div>
+
+        <div class="service-card reveal bg-primary/10 border border-white/10 rounded-3xl p-7 group">
+          <div
+            class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors">
+            <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <h3 class="font-teko text-3xl mb-2">API & Backend Integration</h3>
+          <p class="text-primary-dark font-poppins text-base leading-relaxed">Robust API connections and backend systems
+            using
+            Node.js, Firebase & REST APIs.</p>
+        </div>
+
+        <div class="service-card reveal  bg-slate-100 border border-slate-300 rounded-3xl p-7 group">
+          <div
+            class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center mb-5 group-hover:bg-primary/20 transition-colors">
+            <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h3 class="font-teko text-3xl mb-2">Testing & QA</h3>
+          <p class="text-black font-poppins text-base leading-relaxed">Rigorous QA, performance optimization, and App
+            Store / Play Store deployment support.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ WHY REACT NATIVE ══════════════════ -->
+  <section id="why" class="bg-neutral-100 py-28 px-6 relative overflow-hidden">
+    <div class="absolute inset-0 dot-grid opacity-30"></div>
+    <div class="max-w-7xl mx-auto relative grid md:grid-cols-2 gap-16 items-center">
+      <!-- Image side -->
+      <div class="reveal order-2 md:order-1">
+        <div class="relative">
+          <div class="rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
+            <img src="assets/images/why-react-native.jfif" alt="Team working on mobile apps"
+              class="w-full h-80 object-cover opacity-80" />
+            <div class="absolute inset-0 bg-linear-to-tr from-black/60 via-transparent to-primary/10 rounded-3xl">
+            </div>
+          </div>
+          <!-- Floating stat card -->
+          <div class="absolute -bottom-6 -right-6 bg-zinc-900 border border-primary/30 rounded-2xl p-5 shadow-xl">
+            <div class="font-teko text-4xl text-primary">40%</div>
+            <div class="text-white/60 font-poppins text-xs">Cost reduction vs<br />native development</div>
+          </div>
+        </div>
+      </div>
+      <!-- Text side -->
+      <div class="order-1 md:order-2 reveal space-y-6">
+        <span class="text-primary font-poppins text-xs tracking-widest uppercase font-medium">The Smart Choice</span>
+        <h2 class="font-teko text-6xl leading-none">WHY REACT<br />NATIVE?</h2>
+        <div class="space-y-4">
+          <div class="flex items-start gap-4">
+            <div class="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center shrink-0 mt-0.5">
+              <div class="w-2 h-2 rounded-full bg-primary"></div>
+            </div>
+            <div>
+              <div class="font-poppins font-medium text-lg text-black">Single codebase for iOS & Android</div>
+              <div class="font-poppins text-base text-black/40 mt-0.5">Write once, deploy everywhere — no compromise on
+                quality.</div>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <div class="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center shrink-0 mt-0.5">
+              <div class="w-2 h-2 rounded-full bg-primary"></div>
+            </div>
+            <div>
+              <div class="font-poppins font-medium text-lg text-black">Faster development & quicker releases</div>
+              <div class="font-poppins text-base text-black/40 mt-0.5">Hot reloading and component reuse dramatically
+                speed up cycles.</div>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <div class="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center shrink-0 mt-0.5">
+              <div class="w-2 h-2 rounded-full bg-primary"></div>
+            </div>
+            <div>
+              <div class="font-poppins font-medium text-lg text-black">Native-like performance</div>
+              <div class="font-poppins text-base text-black/40 mt-0.5">Bridge architecture ensures smooth, 60fps user
+                experiences.</div>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <div class="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center shrink-0 mt-0.5">
+              <div class="w-2 h-2 rounded-full bg-primary"></div>
+            </div>
+            <div>
+              <div class="font-poppins font-medium text-lg text-black">Easy scalability & updates</div>
+              <div class="font-poppins text-base text-black/40 mt-0.5">Push OTA updates instantly without App Store
+                re-approval delays.</div>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <div class="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center shrink-0 mt-0.5">
+              <div class="w-2 h-2 rounded-full bg-primary"></div>
+            </div>
+            <div>
+              <div class="font-poppins font-medium text-lg text-black">Reduced costs & strong ROI</div>
+              <div class="font-poppins text-base text-black/40 mt-0.5">One team for both platforms means up to 40%
+                savings.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ APPS WE BUILD ══════════════════ -->
+  <section class="bg-white py-28 px-6">
+    <div class="max-w-7xl mx-auto">
+
+      <div class="text-center mb-14">
+        <div class="mb-14 reveal text-center visible">
+          <p class="text-primary font-poppins text-xs tracking-widest uppercase font-medium">App Categories</p>
+          <h2 class="font-teko text-6xl mt-2 red-line">APPS WE BUILD</h2>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+
+        <div
+          class="app-card js-reveal flex flex-col items-center gap-3 p-6 text-center border border-neutral-100 bg-white transition-all duration-300 cursor-default hover:bg-primary group rounded-xl">
+          <span class="text-4xl text-primary group-hover:text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-shopping-cart-icon lucide-shopping-cart">
+              <circle cx="8" cy="21" r="1" />
+              <circle cx="19" cy="21" r="1" />
+              <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12" />
+            </svg>
+          </span>
+          <h4 class="font-teko text-xl font-semibold group-hover:text-white">eCommerce</h4>
+          <p class="app-sub text-xs text-neutral-400 tracking-wide group-hover:text-white transition-colors">Shopping &
+            Retail</p>
+        </div>
+
+        <div
+          class="app-card js-reveal flex flex-col items-center gap-3 p-6 text-center border border-neutral-100 bg-white transition-all duration-300 cursor-default hover:bg-primary group rounded-xl">
+          <span class="text-4xl text-primary group-hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="34"
+              height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" class="lucide lucide-hospital-icon lucide-hospital">
+              <path d="M12 7v4" />
+              <path d="M14 21v-3a2 2 0 0 0-4 0v3" />
+              <path d="M14 9h-4" />
+              <path d="M18 11h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h2" />
+              <path d="M18 21V5a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16" />
+            </svg></span>
+          <h4 class="font-teko text-xl font-semibold group-hover:text-white">Healthcare</h4>
+          <p class="app-sub text-xs text-neutral-400 tracking-wide group-hover:text-white transition-colors">Fitness &
+            Telemedicine</p>
+        </div>
+
+        <div
+          class="app-card js-reveal flex flex-col items-center gap-3 p-6 text-center border border-neutral-100 bg-white transition-all duration-300 cursor-default hover:bg-primary group rounded-xl">
+          <span class="text-4xl text-primary group-hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="34"
+              height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" class="lucide lucide-landmark-icon lucide-landmark">
+              <path d="M10 18v-7" />
+              <path
+                d="M11.12 2.198a2 2 0 0 1 1.76.006l7.866 3.847c.476.233.31.949-.22.949H3.474c-.53 0-.695-.716-.22-.949z" />
+              <path d="M14 18v-7" />
+              <path d="M18 18v-7" />
+              <path d="M3 22h18" />
+              <path d="M6 18v-7" />
+            </svg></span>
+          <h4 class="font-teko text-xl font-semibold group-hover:text-white">Fintech</h4>
+          <p class="app-sub text-xs text-neutral-400 tracking-wide group-hover:text-white transition-colors">Banking &
+            Finance</p>
+        </div>
+
+        <div
+          class="app-card js-reveal flex flex-col items-center gap-3 p-6 text-center border border-neutral-100 bg-white transition-all duration-300 cursor-default hover:bg-primary group rounded-xl">
+          <span class="text-4xl text-primary group-hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="34"
+              height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" class="lucide lucide-zap-icon lucide-zap">
+              <path
+                d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z" />
+            </svg></span>
+          <h4 class="font-teko text-xl font-semibold group-hover:text-white">On-Demand</h4>
+          <p class="app-sub text-xs text-neutral-400 tracking-wide group-hover:text-white transition-colors">Service &
+            Delivery</p>
+        </div>
+
+        <div
+          class="app-card js-reveal flex flex-col items-center gap-3 p-6 text-center border border-neutral-100 bg-white transition-all duration-300 cursor-default hover:bg-primary group rounded-xl">
+          <span class="text-4xl text-primary group-hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="34"
+              height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" class="lucide lucide-monitor-cloud-icon lucide-monitor-cloud">
+              <path d="M11 13a3 3 0 1 1 2.83-4H14a2 2 0 0 1 0 4z" />
+              <path d="M12 17v4" />
+              <path d="M8 21h8" />
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+            </svg></span>
+          <h4 class="font-teko text-xl font-semibold group-hover:text-white">SaaS Mobile</h4>
+          <p class="app-sub text-xs text-neutral-400 tracking-wide group-hover:text-white transition-colors">Cloud
+            Platforms</p>
+        </div>
+
+        <div
+          class="app-card js-reveal flex flex-col items-center gap-3 p-6 text-center border border-neutral-100 bg-white transition-all duration-300 cursor-default hover:bg-primary group rounded-xl">
+          <span class="text-4xl text-primary group-hover:text-white"><svg xmlns="http://www.w3.org/2000/svg" width="34"
+              height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" class="lucide lucide-building2-icon lucide-building-2">
+              <path d="M10 12h4" />
+              <path d="M10 8h4" />
+              <path d="M14 21v-3a2 2 0 0 0-4 0v3" />
+              <path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2" />
+              <path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16" />
+            </svg></span>
+          <h4 class="font-teko text-xl font-semibold group-hover:text-white">Enterprise</h4>
+          <p class="app-sub text-xs text-neutral-400 tracking-wide group-hover:text-white transition-colors">Mobility
+            Solutions</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ TECH STACK ══════════════════ -->
+  <section id="tech" class="bg-neutral-100 py-28 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="mb-14 reveal">
+        <p class="text-primary font-poppins text-xs tracking-widest uppercase font-medium">Tools &
+          Technologies</p>
+        <h2 class="font-teko text-6xl mt-2 red-line">TECH STACK</h2>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <div class="reveal bg-primary/10 border border-primary-dark rounded-3xl p-6">
+          <div class="text-primary-dark font-medium font-poppins text-base uppercase tracking-tight mb-4">Framework
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="tech-pill bg-primary border border-primary-dark hover:bg-primary-dark transition-all rounded-full px-3 py-1 text-sm font-poppins text-white cursor-default">React
+              Native</span>
+            <span
+              class="tech-pill bg-primary border border-primary-dark hover:bg-primary-dark transition-all rounded-full px-3 py-1 text-sm font-poppins text-white cursor-default">Expo</span>
+          </div>
+        </div>
+
+        <div class="reveal bg-primary/10 border border-primary-dark rounded-3xl p-6">
+          <div class="text-primary-dark font-medium font-poppins text-base uppercase tracking-tight mb-4">Languages
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="tech-pill bg-primary border border-primary-dark hover:bg-primary-dark transition-all rounded-full px-3 py-1 text-sm font-poppins text-white cursor-default">JavaScript</span>
+            <span
+              class="tech-pill bg-primary border border-primary-dark hover:bg-primary-dark transition-all rounded-full px-3 py-1 text-sm font-poppins text-white cursor-default">TypeScript</span>
+          </div>
+        </div>
+
+        <div class="reveal bg-primary/10 border border-primary-dark rounded-3xl p-6">
+          <div class="text-primary-dark font-medium font-poppins text-base uppercase tracking-tight mb-4">Backend</div>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="tech-pill bg-primary border border-primary-dark hover:bg-primary-dark transition-all rounded-full px-3 py-1 text-sm font-poppins text-white cursor-default">Node.js</span>
+            <span
+              class="tech-pill bg-primary border border-primary-dark hover:bg-primary-dark transition-all rounded-full px-3 py-1 text-sm font-poppins text-white cursor-default">Firebase</span>
+            <span
+              class="tech-pill bg-primary border border-primary-dark hover:bg-primary-dark transition-all rounded-full px-3 py-1 text-sm font-poppins text-white cursor-default">REST
+              APIs</span>
+          </div>
+        </div>
+
+        <div class="reveal bg-primary/10 border border-primary-dark rounded-3xl p-6">
+          <div class="text-primary-dark font-medium font-poppins text-base uppercase tracking-tight mb-4">State & Cloud
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="tech-pill bg-primary border border-primary-dark hover:bg-primary-dark transition-all rounded-full px-3 py-1 text-sm font-poppins text-white cursor-default">Redux</span>
+            <span
+              class="tech-pill bg-primary border border-primary-dark hover:bg-primary-dark transition-all rounded-full px-3 py-1 text-sm font-poppins text-white cursor-default">Context
+              API</span>
+            <span
+              class="tech-pill bg-primary border border-primary-dark hover:bg-primary-dark transition-all rounded-full px-3 py-1 text-sm font-poppins text-white cursor-default">AWS</span>
+            <span
+              class="tech-pill bg-primary border border-primary-dark hover:bg-primary-dark transition-all rounded-full px-3 py-1 text-sm font-poppins text-white cursor-default">GCP</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ PROCESS ══════════════════ -->
+  <section id="process" class="bg-white py-28 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="mb-16 reveal text-center">
+        <span class="text-primary font-poppins text-xs tracking-widest uppercase font-medium">How It Works</span>
+        <h2 class="font-teko text-6xl mt-2">OUR PROCESS</h2>
+      </div>
+      <div class="grid md:grid-cols-4 gap-6">
+
+        <div class="reveal relative">
+          <div class="step-num">01</div>
+          <div class="mt-2 border-t-2 border-primary pt-4">
+            <h3 class="font-teko text-2xl mb-2">Discovery</h3>
+            <p class="text-gray-600 font-poppins text-sm">We understand your goals, target audience, and technical
+              requirements.</p>
+          </div>
+        </div>
+        <div class="reveal relative">
+          <div class="step-num">02</div>
+          <div class="mt-2 border-t-2 border-primary pt-4">
+            <h3 class="font-teko text-2xl mb-2">Design</h3>
+            <p class="text-gray-600 font-poppins text-sm">UI/UX wireframes and prototypes crafted for seamless user
+              journeys.</p>
+          </div>
+        </div>
+        <div class="reveal relative">
+          <div class="step-num">03</div>
+          <div class="mt-2 border-t-2 border-primary pt-4">
+            <h3 class="font-teko text-2xl mb-2">Development</h3>
+            <p class="text-gray-600 font-poppins text-sm">Agile sprints with transparent updates and daily standups.</p>
+          </div>
+        </div>
+        <div class="reveal relative">
+          <div class="step-num">04</div>
+          <div class="mt-2 border-t-2 border-primary pt-4">
+            <h3 class="font-teko text-2xl mb-2">Launch & Scale</h3>
+            <p class="text-gray-600 font-poppins text-sm">App Store deployment and ongoing maintenance for long-term
+              growth.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ WHY CHOOSE US ══════════════════ -->
+  <section class="bg-neutral-100 py-28 px-6 relative overflow-hidden">
+    <div class="absolute inset-0 dot-grid opacity-20"></div>
+    <div class="max-w-7xl mx-auto relative">
+      <div class="mb-16 reveal text-center">
+        <span class="text-primary font-poppins text-xs tracking-widest uppercase font-medium">Our Advantage</span>
+        <h2 class="font-teko text-6xl mt-2">WHY CHOOSE US?</h2>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+        <div
+          class="reveal flex gap-4 items-start bg-white border border-white/10 rounded-3xl p-6 hover:border-primary/30  hover:shadow-md hover:shadow-primary/20 hover:-translate-y-1 transition-all duration-100 ease-in-out">
+          <div class="w-10 h-10 rounded-2xl bg-primary/10 flex items-center justify-center shrink-0">
+            <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+          </div>
+          <div>
+            <div class="font-teko text-2xl mb-1">Expert Developers</div>
+            <p class="text-gray-600 font-poppins text-sm">Experienced cross-platform engineers with proven track
+              records.</p>
+          </div>
+        </div>
+
+        <div
+          class="reveal flex gap-4 items-start bg-white border border-white/10 rounded-3xl p-6 hover:border-primary/30  hover:shadow-md hover:shadow-primary/20 hover:-translate-y-1 transition-all duration-100 ease-in-out">
+          <div class="w-10 h-10 rounded-2xl bg-primary/10 flex items-center justify-center shrink-0">
+            <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <div>
+            <div class="font-teko text-2xl mb-1">Agile & Transparent</div>
+            <p class="text-gray-600 font-poppins text-sm">Daily updates, sprint demos, and open communication at every
+              step.</p>
+          </div>
+        </div>
+
+        <div
+          class="reveal flex gap-4 items-start bg-white border border-white/10 rounded-3xl p-6 hover:border-primary/30  hover:shadow-md hover:shadow-primary/20 hover:-translate-y-1 transition-all duration-100 ease-in-out">
+          <div class="w-10 h-10 rounded-2xl bg-primary/10 flex items-center justify-center shrink-0">
+            <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <div>
+            <div class="font-teko text-2xl mb-1">Flexible Hiring</div>
+            <p class="text-gray-600 font-poppins text-sm">Hourly, monthly, or project-based models to suit your budget.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="reveal flex gap-4 items-start bg-white border border-white/10 rounded-3xl p-6 hover:border-primary/30  hover:shadow-md hover:shadow-primary/20 hover:-translate-y-1 transition-all duration-100 ease-in-out">
+          <div class="w-10 h-10 rounded-2xl bg-primary/10 flex items-center justify-center shrink-0">
+            <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+            </svg>
+          </div>
+          <div>
+            <div class="font-teko text-2xl mb-1">Performance-First</div>
+            <p class="text-gray-600 font-poppins text-sm">Strong focus on scalability, speed, and optimized code
+              delivery.</p>
+          </div>
+        </div>
+
+        <div
+          class="reveal flex gap-4 items-start bg-white border border-white/10 rounded-3xl p-6 hover:border-primary/30  hover:shadow-md hover:shadow-primary/20 hover:-translate-y-1 transition-all duration-100 ease-in-out">
+          <div class="w-10 h-10 rounded-2xl bg-primary/10 flex items-center justify-center shrink-0">
+            <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <div>
+            <div class="font-teko text-2xl mb-1">Fast Onboarding</div>
+            <p class="text-gray-600 font-poppins text-sm">Start in days, not months — with dedicated support from day
+              one.</p>
+          </div>
+        </div>
+
+        <div
+          class="reveal flex gap-4 items-start bg-white border border-white/10 rounded-3xl p-6 hover:border-primary/30  hover:shadow-md hover:shadow-primary/20 hover:-translate-y-1 transition-all duration-100 ease-in-out">
+          <div class="w-10 h-10 rounded-2xl bg-primary/10 flex items-center justify-center shrink-0">
+            <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <div>
+            <div class="font-teko text-2xl mb-1">USA-Based Team</div>
+            <p class="text-gray-600 font-poppins text-sm">Work with developers in your timezone — no communication lag.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════ CTA ══════════════════ -->
+  <section id="contact" class="cta-bg py-32 px-6">
+    <div class="max-w-4xl mx-auto text-center reveal space-y-8">
+      <span
+        class="inline-block bg-white/10 border border-white/20 rounded-full px-4 py-1.5 text-white/70 font-poppins text-xs tracking-widest uppercase">Get
+        Started Today</span>
+      <h2 class="font-teko text-7xl md:text-8xl leading-none text-white">READY TO BUILD<br />YOUR APP?</h2>
+      <p class="font-poppins text-white/70 text-base max-w-xl mx-auto leading-relaxed">
+        Partner with expert React Native developers in the USA and go to market faster with a scalable, high-performance
+        mobile app.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4 pt-2">
+        <a href="mailto:hello@reacthire.com"
+          class="bg-white text-black hover:bg-white/90 font-poppins font-semibold text-sm px-8 py-4 rounded-2xl transition-all hover:scale-105 inline-block">
+          Contact Us Now
+        </a>
+        <a href="#services"
+          class="border border-white/30 text-white hover:border-white font-poppins font-medium text-sm px-8 py-4 rounded-2xl transition-all hover:bg-white/10 inline-block">
+          View Services
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════ FOOTER ══════════════════ -->
+  <footer class="bg-zinc-950 border-t border-white/10 py-10 px-4">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <img src="assets/images/logo-white.png" alt="footer logo" class="h-12">
+      <p class="font-poppins text-white/30 text-xs text-center">© 2026 Suretek Infosoft | Expert React Native Developers in the
+        USA.</p>
+      <div class="flex gap-6 text-white/40 font-poppins text-xs">
+        <a href="#services" class="hover:text-white transition-colors">Services</a>
+        <a href="#tech" class="hover:text-white transition-colors">Tech Stack</a>
+        <a href="#contact" class="hover:text-white transition-colors">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Scroll reveal
+    const revealEls = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => entry.target.classList.add('visible'), i * 80);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    revealEls.forEach(el => observer.observe(el));
+  </script>
+</body>
+
+</html>
