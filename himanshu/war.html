@@ -1,0 +1,1402 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Premium IT & Digital Services for US Businesses | Suretek Infosoft
+    </title>
+    <meta
+      name="description"
+      content="Suretek Infosoft provides premium, high-quality IT, web, and software development services for US businesses at special strategic pricing."
+    />
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Tailwind Configuration -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              deepblue: "#0A2540",
+              brightblue: "#000000",
+              successgreen: "#28A745",
+              lightbg: "#F8F9FA",
+              primaryRed: "#a22426",
+            },
+            fontFamily: {
+              poppins: ["Poppins", "sans-serif"],
+              teko: ["Teko", "sans-serif"],
+            },
+            animation: {
+              "fade-in-up": "fadeInUp 0.8s ease-out forwards",
+            },
+            keyframes: {
+              fadeInUp: {
+                "0%": { opacity: "0", transform: "translateY(20px)" },
+                "100%": { opacity: "1", transform: "translateY(0)" },
+              },
+            },
+          },
+        },
+      };
+    </script>
+
+    <style>
+      /* Custom Styles for Animations & UI Polish */
+      .reveal {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: all 0.8s ease-out;
+      }
+      .reveal.active {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .gradient-text {
+        background: linear-gradient(90deg, #007bff, #28a745);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      /* .hero-pattern {
+        background-color: #edfcf2;
+        background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+      } */
+       .hero-pattern {
+    position: relative;
+    background: 
+         linear-gradient(
+            135deg,
+            rgba(204, 224, 208, 0.98) 0%,
+            rgba(231, 245, 234, 0.92) 25%,
+            rgba(206, 236, 215, 0.98) 50%,
+            rgba(205, 231, 214, 0.94) 75%,
+            rgba(225, 252, 233, 0.9) 100%
+        ),
+        url('assets/banner.jpeg') center center / cover no-repeat;
+}
+
+/* Optional if content inside section */
+.hero-pattern .content {
+    position: relative;
+    z-index: 2;
+}
+      .glass-card {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      input:focus,
+      textarea:focus,
+      select:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 0 3px rgba(1, 10, 19, 0.25);
+      }
+      h1,
+      h2{
+        font-family: "Teko", sans-serif;
+         font-weight: 500;
+      }
+      p,
+      h3,
+      div  {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body
+    class="text-gray-800 antialiased bg-white selection:bg-brightblue selection:text-white"
+  >
+    <!-- Navigation -->
+    <nav
+      id="navbar"
+      class="fixed w-full z-50 transition-all duration-300 bg-white/90 backdrop-blur-md border-b border-gray-100"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-20">
+          <!-- Logo -->
+          <div
+            class="flex-shrink-0 flex items-center gap-2 cursor-pointer"
+            onclick="window.scrollTo(0, 0)"
+          >
+     
+            <img
+              src="https://www.suretekinfosoft.com/assets/images/logo1.png"
+              alt="logo"
+              class="max-w-[130px] w-full h-auto"
+            />
+          </div>
+
+          <!-- Desktop Menu -->
+          <div class="hidden md:flex space-x-8 items-center">
+          
+            <select
+              id="langSwitcher"
+              class="px-3 py-2 rounded-lg border shadow-sm bg-white text-sm focus:outline-none "
+            >
+              <option value="en">English</option>
+              <option value="fi">Finland</option>
+              <option value="da">Denmark</option>
+              <!-- <option value="de">German</option> -->
+              <option value="es">Spanish</option>
+            </select>
+          </div>
+
+          <!-- Mobile menu button -->
+          <div class="md:hidden flex items-center">
+            <button
+              id="mobile-menu-btn"
+              class="text-gray-600 hover:text-deepblue focus:outline-none"
+            >
+              <i data-lucide="menu" class="w-7 h-7"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-white border-t border-gray-100 absolute w-full shadow-xl"
+      >
+        <div class="px-4 pt-2 pb-6 space-y-1">
+         
+          <a
+            href="#contact"
+            class="block mt-4 text-center bg-brightblue text-white px-4 py-3 rounded-md font-medium"
+            >Get a Quote</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="hero"
+      class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 hero-pattern overflow-hidden"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center max-w-4xl mx-auto reveal">
+          <!-- <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-900/40 border border-blue-500/30 text-blue-200 text-sm font-medium mb-6">
+                    <span class="w-2 h-2 rounded-full bg-successgreen animate-pulse"></span>
+                    Exclusive Pricing for US Enterprises & Startups
+                </div> -->
+          <h1
+            class="text-4xl md:text-5xl lg:text-6xl font-semibold text-black leading-tight mb-6"
+            data-i18n="hero_title"
+          ></h1>
+          <p
+            class="text-lg md:text-xl text-black mb-10 max-w-2xl mx-auto leading-relaxed"
+            data-i18n="hero_desc"
+          ></p>
+          <div
+            class="flex flex-col sm:flex-row gap-4 justify-center items-center"
+          >
+            <a
+              href="#contact"
+              class="w-full sm:w-auto bg-primaryRed hover:bg-black text-white px-8 py-4 rounded-full font-medium text-base transition-all transform hover:-translate-y-1  flex items-center justify-center gap-2"
+              data-i18n="hero_cta_primary"
+            >
+              <i data-lucide="arrow-right" class="w-5 h-5"></i>
+            </a>
+            <a
+              href="#services"
+              class="w-full sm:w-auto bg-black border-2 border-gray-400 text-white px-8 py-4 rounded-full font-medium text-base transition-all hover:bg-primaryRed "
+              data-i18n="hero_cta_secondary"
+            >
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Trust Indicators -->
+
+      <!-- Abstract Decoration -->
+      <div
+        class="absolute top-1/2 left-0 w-64 h-64 bg-brightblue rounded-full mix-blend-multiply filter blur-[128px] opacity-40 animate-blob"
+      ></div>
+      <div
+        class="absolute top-1/2 right-0 w-64 h-64 bg-successgreen rounded-full mix-blend-multiply filter blur-[128px] opacity-20 animate-blob animation-delay-2000"
+      ></div>
+    </section>
+
+    <section class="py-16">
+      <div class="max-w-7xl mx-auto px-4 text-center">
+        <!-- Heading -->
+        <h2
+          class="text-black text-2xl md:text-5xl font-semibold"
+          data-i18n="stats_title"
+        ></h2>
+
+        <div
+          class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-6 border-t border-white/10 reveal"
+        >
+          <div class="text-center">
+            <h3 class="text-3xl md:text-5xl font-medium text-deepblue mb-1">
+              30+
+            </h3>
+            <p
+              class="text-gray-700 text-base font-normal"
+              data-i18n="stat_clients"
+            ></p>
+          </div>
+          <div class="text-center">
+            <h3 class="text-3xl md:text-5xl font-medium text-deepblue mb-1">
+              99%
+            </h3>
+            <p
+              class="text-gray-700 text-base font-normal"
+              data-i18n="stat_delivery"
+            ></p>
+          </div>
+          <div class="text-center">
+            <h3 class="text-3xl md:text-5xl font-medium text-deepblue mb-1">
+              100%
+            </h3>
+            <p
+              class="text-gray-700 text-base font-medium"
+              data-i18n="stat_security"
+            ></p>
+          </div>
+          <div class="text-center">
+            <h3 class="text-3xl md:text-5xl font-medium text-deepblue mb-1">
+              72 Hrs
+            </h3>
+            <p
+              class="text-gray-700 text-base font-normal"
+              data-i18n="stat_kickoff"
+            ></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div class="reveal">
+            <h4
+              class="text-primaryRed font-bold uppercase tracking-wider text-sm mb-2"
+              data-i18n="about_tag"
+            ></h4>
+            <h2
+              class="text-3xl md:text-5xl font-semibold text-deepblue mb-6 leading-tight"
+              data-i18n="about_title"
+            ></h2>
+            <p
+              class="text-gray-600 mb-6 text-lg font-normal"
+              data-i18n="about_desc"
+            ></p>
+            <!-- <p class="text-gray-600 mb-8 text-lg leading-relaxed">
+                        Our dedicated team of experienced developers, designers, and strategists are committed to transforming your digital vision into reality—without the inflated costs typical of local agencies.
+                    </p> -->
+
+            <ul class="space-y-4 mb-8">
+              <li class="flex items-start gap-3">
+                <div class="mt-1 bg-green-100 p-1 rounded-full">
+                  <i data-lucide="check" class="w-4 h-4 text-successgreen"></i>
+                </div>
+                <span
+                  class="text-gray-700 font-medium "
+                  data-i18n="about_point_1"
+                ></span>
+              </li>
+              <li class="flex items-start gap-3">
+                <div class="mt-1 bg-green-100 p-1 rounded-full">
+                  <i data-lucide="check" class="w-4 h-4 text-successgreen"></i>
+                </div>
+                <span
+                  class="text-gray-700 font-medium "
+                  data-i18n="about_point_2"
+                ></span>
+              </li>
+              <li class="flex items-start gap-3">
+                <div class="mt-1 bg-green-100 p-1 rounded-full">
+                  <i data-lucide="check" class="w-4 h-4 text-successgreen"></i>
+                </div>
+                <span
+                  class="text-gray-700 font-medium "
+                  data-i18n="about_point_3"
+                ></span>
+              </li>
+              <li class="flex items-start gap-3">
+                <div class="mt-1 bg-green-100 p-1 rounded-full">
+                  <i data-lucide="check" class="w-4 h-4 text-successgreen"></i>
+                </div>
+                <span
+                  class="text-gray-700 font-medium "
+                  data-i18n="about_point_4"
+                ></span>
+              </li>
+              <li class="flex items-start gap-3">
+                <div class="mt-1 bg-green-100 p-1 rounded-full">
+                  <i data-lucide="check" class="w-4 h-4 text-successgreen"></i>
+                </div>
+                <span
+                  class="text-gray-700 font-medium "
+                  data-i18n="about_point_5"
+                ></span>
+              </li>
+              <li class="flex items-start gap-3">
+                <div class="mt-1 bg-green-100 p-1 rounded-full">
+                  <i data-lucide="check" class="w-4 h-4 text-successgreen"></i>
+                </div>
+                <span
+                  class="text-gray-700 font-medium "
+                  data-i18n="about_point_6"
+                ></span>
+              </li>
+              <li class="flex items-start gap-3">
+                <div class="mt-1 bg-green-100 p-1 rounded-full">
+                  <i data-lucide="check" class="w-4 h-4 text-successgreen"></i>
+                </div>
+                <span
+                  class="text-gray-700 font-medium "
+                  data-i18n="about_point_7"
+                ></span>
+              </li>
+              <li class="flex items-start gap-3">
+                <div class="mt-1 bg-green-100 p-1 rounded-full">
+                  <i data-lucide="check" class="w-4 h-4 text-successgreen"></i>
+                </div>
+                <span
+                  class="text-gray-700 font-medium "
+                  data-i18n="about_point_8"
+                ></span>
+              </li>
+            </ul>
+          </div>
+          <div class="relative reveal">
+            <img
+              src="assets/team.jpg"
+              alt="Suretek Team Collaboration"
+              class="rounded-lg shadow-2xl z-10 relative"
+            />
+            <!-- Decorative element behind image -->
+            <div
+              class="absolute -bottom-6 -right-6 w-full h-full border-4 border-brightblue/20 rounded-lg z-0"
+            ></div>
+            <div
+              class="absolute -top-6 -left-6 bg-white p-4 rounded-xl shadow-xl z-20 animate-bounce"
+              style="animation-duration: 3s"
+            >
+              <div class="flex items-center gap-3">
+                <div class="bg-successgreen/10 p-3 rounded-full">
+                  <i data-lucide="award" class="w-8 h-8 text-successgreen"></i>
+                </div>
+                <div>
+                  <p
+                    class="text-sm text-gray-500 font-medium"
+                    data-i18n="about_badge_top"
+                  ></p>
+                  <p
+                    class="font-bold text-deepblue"
+                    data-i18n="about_badge_bottom"
+                  ></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-lightbg">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16 reveal">
+          <h4
+            class="text-primaryRed font-bold uppercase tracking-wider text-sm mb-2"
+            data-i18n="services_tag"
+          ></h4>
+          <h2
+            class="text-3xl md:text-5xl font-semibold text-black mb-4"
+            data-i18n="services_title"
+          ></h2>
+          <p
+            class="text-gray-600 text-lg font-normal"
+            data-i18n="services_desc"
+          ></p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <!-- Service 1 -->
+          <div
+            class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover:border-primaryRed transition border border-gray-100 reveal group"
+          >
+            <div
+              class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-brightblue transition-colors duration-300"
+            >
+              <i
+                data-lucide="monitor-smartphone"
+                class="w-7 h-7 text-primaryRed group-hover:text-white"
+              ></i>
+            </div>
+            <h3
+              class="text-xl text-deepblue mb-3"
+              data-i18n="service_1"
+            ></h3>
+            <!-- <p class="text-gray-600 mb-4 leading-relaxed">Custom, responsive, and high-performance websites and web applications built with modern frameworks like React, Angular, and Node.js.</p> -->
+          </div>
+
+          <!-- Service 2 -->
+          <div
+            class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover:border-primaryRed border border-gray-100 reveal group"
+            style="transition-delay: 100ms"
+          >
+            <div
+              class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-brightblue transition-colors duration-300"
+            >
+              <i
+                data-lucide="smartphone"
+                class="w-7 h-7 text-primaryRed group-hover:text-white"
+              ></i>
+            </div>
+            <h3
+              class="text-xl text-deepblue mb-3"
+              data-i18n="service_2"
+            >
+              Web Application Development
+            </h3>
+            <!-- <p class="text-gray-600 mb-4 leading-relaxed">Native (iOS & Android) and cross-platform mobile apps (Flutter, React Native) that offer seamless user experiences.</p> -->
+          </div>
+
+          <!-- Service 3 -->
+          <div
+            class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover:border-primaryRed border border-gray-100 reveal group"
+            style="transition-delay: 200ms"
+          >
+            <div
+              class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-brightblue transition-colors duration-300"
+            >
+              <i
+                data-lucide="layout"
+                class="w-7 h-7 text-primaryRed group-hover:text-white"
+              ></i>
+            </div>
+            <h3
+              class="text-xl text-deepblue mb-3"
+              data-i18n="service_3"
+            ></h3>
+            <!-- <p class="text-gray-600 mb-4 leading-relaxed">User-centric interfaces and engaging experiences designed to increase retention, conversion, and overall satisfaction.</p> -->
+          </div>
+
+          <!-- Service 4 -->
+          <div
+            class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover:border-primaryRed border border-gray-100 reveal group"
+            style="transition-delay: 300ms"
+          >
+            <div
+              class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-brightblue transition-colors duration-300"
+            >
+              <i
+                data-lucide="trending-up"
+                class="w-7 h-7 text-primaryRed group-hover:text-white"
+              ></i>
+            </div>
+            <h3
+              class="text-xl text-deepblue mb-3"
+              data-i18n="service_4"
+            ></h3>
+            <!-- <p class="text-gray-600 mb-4 leading-relaxed">Data-driven SEO, PPC, and Social Media strategies designed to dominate search rankings and capture high-intent leads.</p> -->
+          </div>
+
+          <!-- Service 5 -->
+          <div
+            class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover:border-primaryRed border border-gray-100 reveal group"
+            style="transition-delay: 400ms"
+          >
+            <div
+              class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-brightblue transition-colors duration-300"
+            >
+              <i
+                data-lucide="shopping-cart"
+                class="w-7 h-7 text-primaryRed group-hover:text-white"
+              ></i>
+            </div>
+            <h3
+              class="text-xl text-deepblue mb-3"
+              data-i18n="service_5"
+            ></h3>
+            <!-- <p class="text-gray-600 mb-4 leading-relaxed">Scalable online storefronts using Shopify, Magento, or custom builds, optimized for maximum conversion and secure checkout.</p> -->
+          </div>
+
+          <!-- Service 6 -->
+          <div
+            class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover:border-primaryRed border border-gray-100 reveal group"
+            style="transition-delay: 500ms"
+          >
+            <div
+              class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-brightblue transition-colors duration-300"
+            >
+              <i
+                data-lucide="terminal-square"
+                class="w-7 h-7 text-primaryRed group-hover:text-white"
+              ></i>
+            </div>
+            <h3
+              class="text-xl text-deepblue mb-3"
+              data-i18n="service_6"
+            ></h3>
+            <!-- <p class="text-gray-600 mb-4 leading-relaxed">Tailored enterprise software, CRM/ERP integrations, and automation tools engineered to solve your unique business challenges.</p> -->
+          </div>
+
+          <!-- Service 7 -->
+          <div
+            class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover:border-primaryRed border border-gray-100 reveal group"
+            style="transition-delay: 400ms"
+          >
+            <div
+              class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-brightblue transition-colors duration-300"
+            >
+              <i
+                data-lucide="container"
+                class="w-7 h-7 text-primaryRed group-hover:text-white"
+              ></i>
+            </div>
+            <h3
+              class="text-xl text-deepblue mb-3"
+              data-i18n="service_7"
+            ></h3>
+            <!-- <p class="text-gray-600 mb-4 leading-relaxed">Scalable online storefronts using Shopify, Magento, or custom builds, optimized for maximum conversion and secure checkout.</p> -->
+          </div>
+
+          <!-- Service 8 -->
+          <div
+            class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 hover:border-primaryRed border border-gray-100 reveal group"
+            style="transition-delay: 400ms"
+          >
+            <div
+              class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-brightblue transition-colors duration-300"
+            >
+              <i
+                data-lucide="workflow"
+                class="w-7 h-7 text-primaryRed group-hover:text-white"
+              ></i>
+            </div>
+            <h3
+              class="text-xl text-deepblue mb-3"
+              data-i18n="service_8"
+            ></h3>
+            <!-- <p class="text-gray-600 mb-4 leading-relaxed">Scalable online storefronts using Shopify, Magento, or custom builds, optimized for maximum conversion and secure checkout.</p> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Frequently Asked Question Section -->
+    <section class="bg-gray-100 py-16">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-10">
+          <!-- Left Content -->
+          <div class="md:col-span-12">
+            <h2
+              class="text-3xl md:text-5xl text-center font-semibold text-gray-900 mb-4"
+              data-i18n="faq_title"
+            ></h2>
+            <p class="text-gray-600 text-center" data-i18n="faq_desc"></p>
+          </div>
+
+          <!-- Accordion -->
+          <div class="md:col-span-7">
+            <div id="accordion" class="divide-y divide-gray-300">
+              <!-- Item 1 -->
+              <div class="accordion-item">
+                <button
+                  class="accordion-header w-full flex justify-between items-center py-3 text-left text-xl font-semibold  text-primaryRed"
+                >
+                  <span data-i18n="faq_q1"></span>
+                  <span class="icon text-2xl">×</span>
+                </button>
+                <div
+                  class="accordion-content overflow-hidden max-h-0 transition-all duration-300 text-gray-600 text-base leading-relaxed"
+                >
+                  <p class="pb-5 pr-5" data-i18n="faq_a1"></p>
+                </div>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="accordion-item">
+                <button
+                  class="accordion-header w-full flex justify-between items-center py-3 text-left text-xl font-semibold  text-gray-800"
+                >
+                  <span data-i18n="faq_q2"></span>
+                  <span class="icon text-2xl">+</span>
+                </button>
+                <div
+                  class="accordion-content overflow-hidden max-h-0 transition-all duration-300 text-gray-600 text-base leading-relaxed"
+                >
+                  <p class="pb-5 pr-5" data-i18n="faq_a2"></p>
+                </div>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="accordion-item">
+                <button
+                  class="accordion-header w-full flex justify-between items-center py-3 text-left text-xl font-semibold  text-gray-800"
+                >
+                  <span data-i18n="faq_q3"></span>
+                  <span class="icon text-2xl">+</span>
+                </button>
+                <div
+                  class="accordion-content overflow-hidden max-h-0 transition-all duration-300 text-gray-600 text-base leading-relaxed"
+                >
+                  <p class="pb-5 pr-5" data-i18n="faq_a3"></p>
+                </div>
+              </div>
+
+              <!-- Item 4 -->
+              <div class="accordion-item">
+                <button
+                  class="accordion-header w-full flex justify-between items-center py-3 text-left text-xl font-semibold  text-gray-800"
+                >
+                  <span data-i18n="faq_q4"></span>
+                  <span class="icon text-2xl">+</span>
+                </button>
+                <div
+                  class="accordion-content overflow-hidden max-h-0 transition-all duration-300 text-gray-600 text-base leading-relaxed"
+                >
+                  <p class="pb-5 pr-5" data-i18n="faq_a4"></p>
+                </div>
+              </div>
+
+              <!-- Item 5 -->
+              <div class="accordion-item">
+                <button
+                  class="accordion-header w-full flex justify-between items-center py-3 text-left text-xl font-semibold  text-gray-800"
+                >
+                  <span data-i18n="faq_q5"></span>
+                  <span class="icon text-2xl">+</span>
+                </button>
+                <div
+                  class="accordion-content overflow-hidden max-h-0 transition-all duration-300 text-gray-600 text-base leading-relaxed"
+                >
+                  <p class="pb-5 pr-5" data-i18n="faq_a5"></p>
+                </div>
+              </div>
+
+              <!-- Item 6 -->
+              <div class="accordion-item">
+                <button
+                  class="accordion-header w-full flex justify-between items-center py-3 text-left text-xl font-semibold  text-gray-800"
+                >
+                  <span data-i18n="faq_q6"></span>
+                  <span class="icon text-2xl">+</span>
+                </button>
+                <div
+                  class="accordion-content overflow-hidden max-h-0 transition-all duration-300 text-gray-600 text-base leading-relaxed"
+                >
+                  <p class="pb-5 pr-5" data-i18n="faq_a6"></p>
+                </div>
+              </div>
+
+              <!-- Item 7 -->
+              <div class="accordion-item">
+                <button
+                  class="accordion-header w-full flex justify-between items-center py-3 text-left text-xl font-semibold  text-gray-800"
+                >
+                  <span data-i18n="faq_q7"></span>
+                  <span class="icon text-2xl">+</span>
+                </button>
+                <div
+                  class="accordion-content overflow-hidden max-h-0 transition-all duration-300 text-gray-600 text-base leading-relaxed"
+                >
+                  <p class="pb-5 pr-5" data-i18n="faq_a7"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+             <div class="md:col-span-5 pt-5">  
+
+              <img src="assets/faq.jpg" alt="Suretek FAQ" class="w-full h-auto rounded-lg" />
+             </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- case studies section -->
+    <section class="py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-4">
+        <!-- Heading -->
+        <div class="text-center mb-12">
+          <h2
+            class="text-3xl md:text-5xl font-semibold text-gray-900 mb-4"
+            data-i18n="case_title"
+          ></h2>
+        </div>
+
+        <!-- Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Card 1 -->
+          <div
+            class="w-full rounded-[15px] p-5 flex flex-col justify-end border border-gray-300 bg-white shadow-md hover:shadow-lg hover:border-primaryRed transition"
+          >
+            <img
+              src="https://www.suretekinfosoft.com/assets/images/icons/agile.png"
+              class="mb-4 w-14 h-14"
+              alt=""
+            />
+            <h4
+              class="text-lg md:text-2xl font-medium  mb-2"
+              data-i18n="case1_title"
+            ></h4>
+            <p
+              class="text-gray-600 text-sm  mb-4"
+              data-i18n="case1_desc"
+            ></p>
+            <a
+              href="https://www.suretekinfosoft.com/case-studies/how-suretek-helped-a-us-healthcare-provider-go-fully-digital-with-a-secure-ehr-system.php"
+              class="text-black text-sm font-medium  font-medium inline-flex items-center gap-2 hover:text-primaryRed"
+              data-i18n="case_cta"
+            ></a>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="relative h-[350px] rounded-xl overflow-hidden group">
+            <img
+              src="assets/images/web-application-development.webp"
+              class="w-full h-full object-cover"
+              alt=""
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent flex flex-col justify-end p-5"
+            >
+              <div
+                class="transform translate-y-1/2 group-hover:translate-y-0 transition-all duration-500"
+              >
+                <h4
+                  class="text-white text-lg md:text-2xl font-medium   mb-2"
+                  data-i18n="case2_title"
+                ></h4>
+                <p
+                  class="text-gray-200 text-sm md:text-sm  mb-3 opacity-0 group-hover:opacity-100 transition duration-300 delay-200"
+                  data-i18n="case2_desc"
+                ></p>
+                <a
+                  href="https://www.suretekinfosoft.com/case-studies/us-based-real-estate-firm-went-digital.php"
+                  class="text-white text-sm font-medium  font-medium opacity-0 group-hover:opacity-100 hover:text-primaryRed transition duration-300 delay-300"
+                  data-i18n="case_cta"
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="w-full rounded-[15px] p-5 flex flex-col justify-end border border-gray-300 bg-white shadow-md hover:shadow-lg hover:border-primaryRed transition"
+          >
+            <img
+              src="https://www.suretekinfosoft.com/assets/images/icons/tech-stack.png"
+              class="mb-4 w-14 h-14"
+              alt=""
+            />
+            <h4
+              class="text-lg md:text-2xl font-medium   mb-2"
+              data-i18n="case3_title"
+            ></h4>
+            <p
+              class="text-gray-600 text-sm  mb-4"
+              data-i18n="case3_desc"
+            ></p>
+            <a
+              href="https://www.suretekinfosoft.com/case-studies/suretek-revolutionized-sales-with-android-app.php"
+              class="text-black text-sm font-medium  font-medium inline-flex items-center gap-2 hover:text-primaryRed"
+              data-i18n="case_cta"
+            ></a>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="relative h-[350px] rounded-xl overflow-hidden group">
+            <img
+              src="assets/images/web-application-development.webp"
+              class="w-full h-full object-cover"
+              alt=""
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent flex flex-col justify-end p-5"
+            >
+              <div
+                class="transform translate-y-1/2 group-hover:translate-y-0 transition-all duration-500"
+              >
+                <h4
+                  class="text-white text-lg md:text-2xl font-medium   mb-2"
+                  data-i18n="case4_title"
+                ></h4>
+                <p
+                  class="text-gray-200 text-sm md:text-sm  mb-3 opacity-0 group-hover:opacity-100 transition duration-300 delay-200"
+                  data-i18n="case4_desc"
+                ></p>
+                <a
+                  href="https://www.suretekinfosoft.com/case-studies/strengthening-us-qsr-platform.php"
+                  class="text-white text-sm font-medium  font-medium opacity-0 group-hover:opacity-100 hover:text-primaryRed transition duration-300 delay-300"
+                  data-i18n="case_cta"
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div
+            class="w-full rounded-[15px] p-5 flex flex-col justify-end border border-gray-300 bg-white shadow-md hover:shadow-lg hover:border-primaryRed transition"
+          >
+            <img
+              src="https://www.suretekinfosoft.com/assets/images/icons/tech-stack.png"
+              class="mb-4 w-14 h-14"
+              alt=""
+            />
+            <h4
+              class="text-lg md:text-2xl font-medium   mb-2"
+              data-i18n="case5_title"
+            ></h4>
+            <p
+              class="text-gray-600 text-sm  mb-4"
+              data-i18n="case5_desc"
+            ></p>
+            <a
+              href="https://www.suretekinfosoft.com/case-studies/empowering-faith-based-matchmaking-using-ai.php"
+              class="text-black text-sm font-medium  font-medium inline-flex items-center gap-2 hover:text-primaryRed"
+              data-i18n="case_cta"
+            ></a>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="relative h-[350px] rounded-xl overflow-hidden group">
+            <img
+              src="assets/images/web-application-development.webp"
+              class="w-full h-full object-cover"
+              alt=""
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent flex flex-col justify-end p-5"
+            >
+              <div
+                class="transform translate-y-1/2 group-hover:translate-y-0 transition-all duration-500"
+              >
+                <h4
+                  class="text-white text-lg md:text-2xl font-medium   mb-2"
+                  data-i18n="case6_title"
+                ></h4>
+                <p
+                  class="text-gray-200 text-sm md:text-sm  mb-3 opacity-0 group-hover:opacity-100 transition duration-300 delay-200"
+                  data-i18n="case6_desc"
+                ></p>
+                <a
+                  href="/"
+                  class="text-white text-sm font-medium  font-medium opacity-0 group-hover:opacity-100 hover:text-primaryRed transition duration-300 delay-300"
+                  data-i18n="case_cta"
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <!-- <section id="portfolio" class="py-20 bg-lightbg">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="flex flex-col md:flex-row justify-between items-end mb-12 reveal"
+        >
+          <div class="max-w-2xl">
+            <h4
+              class="text-primaryRed font-bold uppercase tracking-wider text-sm mb-2"
+            >
+              Featured Work
+            </h4>
+            <h2 class="text-3xl md:text-5xl font-semibold text-black">
+              Solutions That Drive Results
+            </h2>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div
+            class="group relative rounded-2xl overflow-hidden bg-white shadow-md hover:shadow-2xl transition-all reveal cursor-pointer"
+          >
+            <div class="h-64 overflow-hidden relative">
+              <img
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Fintech Dashboard"
+                class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-deepblue/90 to-transparent opacity-80"
+              ></div>
+              <div
+                class="absolute top-4 right-4 bg-white/20 backdrop-blur-md px-3 py-1 rounded-full text-white text-xs font-bold border border-white/30"
+              >
+                FinTech
+              </div>
+            </div>
+            <div
+              class="absolute bottom-0 left-0 w-full p-6 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300"
+            >
+              <h3 class="text-2xl font-bold mb-2">PayFlow Analytics</h3>
+              <p
+                class="text-gray-300 text-sm mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100"
+              >
+                Complete architectural rewrite and UI overhaul for a US-based
+                payment processor.
+              </p>
+              <div class="flex gap-4">
+                <div class="flex flex-col">
+                  <span class="text-successgreen font-bold text-lg">+150%</span>
+                  <span class="text-xs text-gray-400 uppercase"
+                    >Conversion</span
+                  >
+                </div>
+                <div class="flex flex-col">
+                  <span class="text-primaryRed font-bold text-lg">3x</span>
+                  <span class="text-xs text-gray-400 uppercase"
+                    >Faster Load</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="group relative rounded-2xl overflow-hidden bg-white shadow-md hover:shadow-2xl transition-all reveal cursor-pointer"
+            style="transition-delay: 100ms"
+          >
+            <div class="h-64 overflow-hidden relative">
+              <img
+                src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Mobile E-commerce App"
+                class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-deepblue/90 to-transparent opacity-80"
+              ></div>
+              <div
+                class="absolute top-4 right-4 bg-white/20 backdrop-blur-md px-3 py-1 rounded-full text-white text-xs font-bold border border-white/30"
+              >
+                E-Commerce
+              </div>
+            </div>
+            <div
+              class="absolute bottom-0 left-0 w-full p-6 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300"
+            >
+              <h3 class="text-2xl font-bold mb-2">ShopNova App</h3>
+              <p
+                class="text-gray-300 text-sm mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100"
+              >
+                React Native mobile application built for a retail giant with
+                real-time inventory sync.
+              </p>
+              <div class="flex gap-4">
+                <div class="flex flex-col">
+                  <span class="text-successgreen font-bold text-lg">4.9</span>
+                  <span class="text-xs text-gray-400 uppercase"
+                    >App Store Rating</span
+                  >
+                </div>
+                <div class="flex flex-col">
+                  <span class="text-primaryRed font-bold text-lg">2M+</span>
+                  <span class="text-xs text-gray-400 uppercase">Downloads</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="group relative rounded-2xl overflow-hidden bg-white shadow-md hover:shadow-2xl transition-all reveal cursor-pointer"
+          >
+            <div class="h-64 overflow-hidden relative">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Healthcare Portal"
+                class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-deepblue/90 to-transparent opacity-80"
+              ></div>
+              <div
+                class="absolute top-4 right-4 bg-white/20 backdrop-blur-md px-3 py-1 rounded-full text-white text-xs font-bold border border-white/30"
+              >
+                Healthcare
+              </div>
+            </div>
+            <div
+              class="absolute bottom-0 left-0 w-full p-6 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300"
+            >
+              <h3 class="text-2xl font-bold mb-2">CareConnect Portal</h3>
+              <p
+                class="text-gray-300 text-sm mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100"
+              >
+                HIPAA-compliant patient management system with telemedicine
+                video integration.
+              </p>
+              <div class="flex gap-4">
+                <div class="flex flex-col">
+                  <span class="text-successgreen font-bold text-lg">100%</span>
+                  <span class="text-xs text-gray-400 uppercase"
+                    >Compliance</span
+                  >
+                </div>
+                <div class="flex flex-col">
+                  <span class="text-primaryRed font-bold text-lg">-40%</span>
+                  <span class="text-xs text-gray-400 uppercase"
+                    >Admin Time</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="group relative rounded-2xl overflow-hidden bg-white shadow-md hover:shadow-2xl transition-all reveal cursor-pointer"
+            style="transition-delay: 100ms"
+          >
+            <div class="h-64 overflow-hidden relative">
+              <img
+                src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Data Analytics Software"
+                class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-deepblue/90 to-transparent opacity-80"
+              ></div>
+              <div
+                class="absolute top-4 right-4 bg-white/20 backdrop-blur-md px-3 py-1 rounded-full text-white text-xs font-bold border border-white/30"
+              >
+                SaaS
+              </div>
+            </div>
+            <div
+              class="absolute bottom-0 left-0 w-full p-6 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300"
+            >
+              <h3 class="text-2xl font-bold mb-2">DataMetrics AI</h3>
+              <p
+                class="text-gray-300 text-sm mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100"
+              >
+                Custom AI-driven marketing analytics dashboard built on React
+                and Node.js.
+              </p>
+              <div class="flex gap-4">
+                <div class="flex flex-col">
+                  <span class="text-successgreen font-bold text-lg">$2M+</span>
+                  <span class="text-xs text-gray-400 uppercase"
+                    >ARR Generated</span
+                  >
+                </div>
+                <div class="flex flex-col">
+                  <span class="text-primaryRed font-bold text-lg">99.9%</span>
+                  <span class="text-xs text-gray-400 uppercase">Uptime</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Footer -->
+    <footer class="bg-[#051120] text-gray-300 py-12 border-t border-gray-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+          <!-- Brand -->
+          <div>
+            <div class="flex items-center gap-2 mb-4">
+              <img
+                src="https://www.suretekinfosoft.com/assets/images/logo-white.png"
+                alt="logo"
+                class="max-w-[130px] w-full h-auto"
+              />
+            </div>
+            <p
+              class="text-sm text-gray-400 mb-6 leading-relaxed"
+              data-i18n="footer_desc"
+            ></p>
+
+            <div class="flex gap-4">
+              <a
+                href="#"
+                class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-brightblue hover:text-white transition-colors"
+                ><i data-lucide="linkedin" class="w-4 h-4"></i
+              ></a>
+              <a
+                href="#"
+                class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-brightblue hover:text-white transition-colors"
+                ><i data-lucide="twitter" class="w-4 h-4"></i
+              ></a>
+              <a
+                href="#"
+                class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-brightblue hover:text-white transition-colors"
+                ><i data-lucide="facebook" class="w-4 h-4"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Company -->
+          <div>
+            <h4
+              class="text-white font-bold mb-4 uppercase text-sm tracking-wider"
+              data-i18n="footer_company"
+            ></h4>
+            <ul class="space-y-2 text-sm">
+              <li>
+                <a
+                  href="#about"
+                  class="hover:text-primaryRed transition-colors "
+                  data-i18n="footer_about"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="#portfolio"
+                  class="hover:text-primaryRed transition-colors "
+                  data-i18n="footer_portfolio"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="hover:text-primaryRed transition-colors "
+                  data-i18n="footer_careers"
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Services -->
+          <div>
+            <h4
+              class="text-white font-bold  mb-4 uppercase text-sm tracking-wider"
+              data-i18n="footer_services"
+            ></h4>
+            <ul class="space-y-2 text-sm">
+              <li>
+                <a
+                  href="#services"
+                  class="hover:text-primaryRed transition-colors "
+                  data-i18n="footer_service_web"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="#services"
+                  class="hover:text-primaryRed transition-colors "
+                  data-i18n="footer_service_mobile"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="#services"
+                  class="hover:text-primaryRed transition-colors "
+                  data-i18n="footer_service_uiux"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="#services"
+                  class="hover:text-primaryRed transition-colors "
+                  data-i18n="footer_service_marketing"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="#services"
+                  class="hover:text-primaryRed transition-colors "
+                  data-i18n="footer_service_custom"
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div>
+            <h4
+              class="text-white font-bold  mb-4 uppercase text-sm tracking-wider"
+              data-i18n="footer_contact"
+            ></h4>
+            <ul class="space-y-3 text-sm">
+              <li class="flex items-start gap-2">
+                <i
+                  data-lucide="map-pin"
+                  class="w-4 h-4 text-primaryRed mt-0.5"
+                ></i>
+                <span class="" data-i18n="footer_address"></span>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="mail" class="w-4 h-4 text-primaryRed"></i>
+                <a
+                  href="mailto:info@suretekinfosoft.com"
+                  class="hover:text-white transition-colors "
+                  data-i18n="footer_email"
+                ></a>
+              </li>
+              <li class="flex items-center gap-2">
+                <i data-lucide="phone" class="w-4 h-4 text-successgreen"></i>
+                <span class="" data-i18n="footer_phone"></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500"
+        >
+          <p data-i18n="footer_copyright"></p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+      // Initialize Lucide Icons
+      lucide.createIcons();
+
+      // Mobile Menu Toggle
+      const btn = document.getElementById("mobile-menu-btn");
+      const menu = document.getElementById("mobile-menu");
+
+      btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+
+      // Close mobile menu on link click
+      menu.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+          menu.classList.add("hidden");
+        });
+      });
+
+      // Sticky Navbar styling on scroll
+      const navbar = document.getElementById("navbar");
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 10) {
+          navbar.classList.add("shadow-md");
+          navbar.classList.replace("bg-white/90", "bg-white/95");
+        } else {
+          navbar.classList.remove("shadow-md");
+          navbar.classList.replace("bg-white/95", "bg-white/90");
+        }
+      });
+
+      // Scroll Reveal Animation with Intersection Observer
+      const revealElements = document.querySelectorAll(".reveal");
+
+      const revealOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
+
+      const revealOnScroll = new IntersectionObserver(function (
+        entries,
+        observer,
+      ) {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) {
+            return;
+          } else {
+            entry.target.classList.add("active");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, revealOptions);
+
+      revealElements.forEach((el) => {
+        revealOnScroll.observe(el);
+      });
+    </script>
+
+    <script>
+      const items = document.querySelectorAll(".accordion-item");
+
+      items.forEach((item, index) => {
+        const header = item.querySelector(".accordion-header");
+        const content = item.querySelector(".accordion-content");
+        const icon = item.querySelector(".icon");
+
+        header.addEventListener("click", () => {
+          const isOpen = item.classList.contains("active");
+
+          // Close all
+          items.forEach((i) => {
+            i.classList.remove("active");
+
+            const c = i.querySelector(".accordion-content");
+            const ic = i.querySelector(".icon");
+            const h = i.querySelector(".accordion-header");
+
+            c.style.maxHeight = null;
+            ic.textContent = "+";
+            h.classList.remove("text-primaryRed");
+            h.classList.add("text-gray-800");
+          });
+
+          // Open clicked (only if it was closed)
+          if (!isOpen) {
+            item.classList.add("active");
+            content.style.maxHeight = content.scrollHeight + "px";
+            icon.textContent = "×";
+            header.classList.remove("text-gray-800");
+            header.classList.add("text-primaryRed");
+          }
+        });
+      });
+
+      window.addEventListener("load", () => {
+        const first = items[0];
+
+        const content = first.querySelector(".accordion-content");
+        const icon = first.querySelector(".icon");
+        const header = first.querySelector(".accordion-header");
+
+        first.classList.add("active");
+        content.style.maxHeight = content.scrollHeight + "px";
+        icon.textContent = "×";
+        header.classList.add("text-primaryRed");
+      });
+
+      // language converter code
+      const switcher = document.getElementById("langSwitcher");
+
+      let currentLang = localStorage.getItem("lang") || "en";
+
+      async function loadLanguage(lang) {
+        const res = await fetch(`./locales-cost-solution/${lang}.json`);
+        console.log("ressss", res)
+        const translations = await res.json();
+
+        document.querySelectorAll("[data-i18n]").forEach((el) => {
+          const key = el.getAttribute("data-i18n");
+          if (translations[key]) {
+            el.innerHTML = translations[key];
+          }
+        });
+
+        localStorage.setItem("lang", lang);
+      }
+
+      // Init
+      loadLanguage(currentLang);
+      switcher.value = currentLang;
+
+      // Change
+      switcher.addEventListener("change", (e) => {
+        loadLanguage(e.target.value);
+      });
+    </script>
+  </body>
+</html>

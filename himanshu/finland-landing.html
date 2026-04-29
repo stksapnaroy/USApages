@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suretek Infosoft USA</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#a22426",
+              dark: "#111111",
+              secondard: "#f3f3f3",
+            },
+            fontFamily: {
+              poppins: ["Poppins", "sans-serif"],
+              teko: ["Teko", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .card-hover {
+        transition: all 0.35s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+      }
+      .card-hover:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 25px 35px -12px rgba(151, 144, 144, 0.25);
+      }
+      /* subtle gradient border effect on hover (optional) */
+      .service-card {
+        background: rgba(17, 17, 17, 0.85);
+        backdrop-filter: blur(0px);
+        transition:
+          border-color 0.25s ease,
+          background 0.3s;
+      }
+      .service-card:hover {
+        border-color: #a22426;
+      }
+      /* icon wrapper animation */
+      .icon-shine {
+        transition:
+          transform 0.25s ease,
+          color 0.2s;
+      }
+      .service-card:hover .icon-shine {
+        transform: scale(1.05);
+        color: #a22426;
+      }
+    </style>
+  </head>
+
+  <body class="font-poppins text-gray-900 bg-white overflow-x-hidden">
+    <!-- Header -->
+    <header
+      id="header"
+      class="fixed top-0 left-0 w-full z-50 transition-all duration-300"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 flex justify-between items-center py-4"
+      >
+        <div class="text-2xl font-extrabold text-primary mx-auto">
+          <img
+            src="./assets/nav-logo.png"
+            alt="logo"
+            class="max-w-[130px] w-full h-auto"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section
+      class="pt-40 pb-20 min-h-[600px] bg-[linear-gradient(135deg,rgba(204,224,208,0.88)_0%,rgba(231,245,234,0.92)_25%,rgba(206,236,215,0.88)_50%,rgba(205,231,214,0.94)_75%,rgba(225,252,233,0.90)_100%),url('assets/finland.webp')] bg-cover bg-top">
+        <div
+        class="max-w-full mx-auto px-4 md:px-6 lg:px-8 items-center"
+      >
+        <div class="text-center lg:text-center py-16">  
+          <h1
+            data-i18n="heroTitle"
+            class="font-teko font-semibold text-black leading-tight mb-6 text-4xl md:text-5xl lg:text-6xl"
+          >
+            Mobile <span class="text-primary">App Development</span> Company in Finland
+          
+          </h1>
+
+          <p
+            data-i18n="heroDesc"
+            class="text-lg md:text-xl text-gray-800 max-w-6xl mx-auto"
+          >
+            We provide advanced mobile app development in Finland, helping<br>
+            businesses scale with innovative and secure solutions.
+          </p>
+        </div>
+
+     
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-10 md:py-20">
+      <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center">
+        <h2
+          class="text-black text-2xl md:text-5xl font-semibold font-teko mb-3"
+        >
+          Our Services in <span class="text-primary">Finland</span>
+        </h2>
+
+        <div class="grid gap-6 mt-12 sm:grid-cols-2 lg:grid-cols-3">
+          <!-- Card -->
+          <div
+            class="bg-white p-6 rounded-2xl shadow-md border hover:-translate-y-2 hover:border-primary transition"
+          >
+            <div
+              class="w-14 h-14 bg-red-100 mx-auto rounded-xl flex items-center justify-center text-2xl text-primary mb-4"
+            >
+              📱
+            </div>
+            <h3 class="font-medium text-base md:text-xl mb-2">
+              Mobile apps development in Finland
+            </h3>
+          </div>
+
+          <div
+            class="bg-white p-6 rounded-2xl shadow-md border hover:-translate-y-2 hover:border-primary transition"
+          >
+            <div
+              class="w-14 h-14 bg-red-100 rounded-xl flex items-center justify-center mx-auto text-2xl text-primary mb-4"
+            >
+              💻
+            </div>
+            <h3 class="font-medium text-base md:text-xl mb-2">
+              Web application development in Finland
+            </h3>
+          </div>
+
+          <div
+            class="bg-white p-6 rounded-2xl shadow-md border hover:-translate-y-2 hover:border-primary transition"
+          >
+            <div
+              class="w-14 h-14 bg-red-100 rounded-xl flex items-center justify-center mx-auto text-2xl text-primary mb-4"
+            >
+              ⚙️
+            </div>
+            <h3 class="font-medium text-base md:text-xl mb-2">
+              Custom software development services in Finland
+            </h3>
+          </div>
+
+          <div
+            class="bg-white p-6 rounded-2xl shadow-md border hover:-translate-y-2 hover:border-primary transition"
+          >
+            <div
+              class="w-14 h-14 bg-red-100 rounded-xl flex items-center justify-center mx-auto text-2xl text-primary mb-4"
+            >
+              🤖
+            </div>
+            <h3 class="font-medium text-base md:text-xl mb-2">
+              Software development agency Finland
+            </h3>
+          </div>
+
+          <div
+            class="bg-white p-6 rounded-2xl shadow-md border hover:-translate-y-2 hover:border-primary transition"
+          >
+            <div
+              class="w-14 h-14 bg-red-100 rounded-xl flex items-center justify-center mx-auto text-2xl text-primary mb-4"
+            >
+              ☁️
+            </div>
+            <h3 class="font-medium text-base md:text-xl mb-2">
+              Software testing companies
+            </h3>
+          </div>
+
+          <div
+            class="bg-white p-6 rounded-2xl shadow-md border hover:-translate-y-2 hover:border-primary transition"
+          >
+            <div
+              class="w-14 h-14 bg-red-100 rounded-xl flex items-center justify-center mx-auto text-2xl text-primary mb-4"
+            >
+              🛠️
+            </div>
+            <h3 class="font-medium text-base md:text-xl mb-2">
+              AI consulting companies in Sweden
+            </h3>
+          </div>
+
+          <div
+            class="bg-white p-6 rounded-2xl shadow-md border hover:-translate-y-2 hover:border-primary transition"
+          >
+            <div
+              class="w-14 h-14 bg-red-100 rounded-xl flex items-center justify-center mx-auto text-2xl text-primary mb-4"
+            >
+              🏢
+            </div>
+            <h3 class="font-medium text-base md:text-xl mb-2">
+              IT consulting company in Finland
+            </h3>
+          </div>
+          <div
+            class="bg-white p-6 rounded-2xl shadow-md border hover:-translate-y-2 hover:border-primary transition"
+          >
+            <div
+              class="w-14 h-14 bg-red-100 rounded-xl flex items-center justify-center mx-auto text-2xl text-primary mb-4"
+            >
+              👥
+            </div>
+            <h3 class="font-medium text-base md:text-xl mb-2">
+              Staff augmentation services in Finland
+            </h3>
+          </div>
+          <div
+            class="bg-white p-6 rounded-2xl shadow-md border hover:-translate-y-2 hover:border-primary transition"
+          >
+            <div
+              class="w-14 h-14 bg-red-100 rounded-xl flex items-center justify-center mx-auto text-2xl text-primary mb-4"
+            >
+              ☁️
+            </div>
+            <h3 class="font-medium text-base md:text-xl mb-2">
+              Cloud & IT infrastructure services in Finland
+            </h3>
+          </div>
+          <div
+            class="bg-white p-6 rounded-2xl shadow-md border hover:-translate-y-2 hover:border-primary transition"
+          >
+            <div
+              class="w-14 h-14 bg-red-100 rounded-xl flex items-center justify-center mx-auto text-2xl text-primary mb-4"
+            >
+              🔧
+            </div>
+            <h3 class="font-medium text-base md:text-xl mb-2">
+              Software testing & QA services
+            </h3>
+          </div>
+          <div
+            class="bg-white p-6 rounded-2xl shadow-md border hover:-translate-y-2 hover:border-primary transition"
+          >
+            <div
+              class="w-14 h-14 bg-red-100 rounded-xl flex items-center justify-center mx-auto text-2xl text-primary mb-4"
+            >
+              🔧
+            </div>
+            <h3 class="font-medium text-base md:text-xl mb-2">
+             Software maintenance company 
+            </h3>
+          </div>
+          <div
+            class="bg-white p-6 rounded-2xl shadow-md border hover:-translate-y-2 hover:border-primary transition"
+          >
+            <div
+              class="w-14 h-14 bg-red-100 rounded-xl flex items-center justify-center mx-auto text-2xl text-primary mb-4"
+            >
+               🧠
+            </div>
+            <h3 class="font-medium text-base md:text-xl mb-2">
+              AI consulting companies in Finland
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Strip -->
+    <section
+      id="solutions"
+      class="bg-gray-100 text-white text-center py-10 md:py-20"
+    >
+      <div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center mb-5">
+        <h2
+          class="mb-3 text-black font-teko text-2xl md:text-5xl font-semibold"
+        >
+          Key <span class="text-primary">Services Delivered</span>  in Finland
+        </h2>
+        <p
+          class="text-gray-600 text-sm md:text-base leading-relaxed font-poppins"
+          data-i18n="solutions_desc"
+        ></p>
+      </div>
+      <div class="max-w-7xl mx-auto">
+        <!-- Responsive grid: 1x on mobile, 2x on tablet, 3x on desktop -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 px-4">
+          <!-- Card 1: AI/ML-powered SaaS platforms & automation tools -->
+          <div
+            class="service-card rounded-2xl border border-black/10 bg-[#fff] p-6 md:p-7 flex flex-col transition-all duration-300 card-hover backdrop-blur-sm"
+          >
+            <div class="flex items-center justify-between mb-4">
+              <div
+                class="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center icon-shine transition-all duration-200"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 text-primary"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+                  />
+                </svg>
+              </div>
+              <span
+                class="text-xs font-semibold uppercase tracking-wider text-primary/80 bg-primary/10 px-3 py-1 rounded-full"
+                >AI & IOT</span
+              >
+            </div>
+            <h3
+              class="text-base md:text-2xl font-semibold text-black font-poppins tracking-wide mt-1"
+            >
+             AI & IoT-based smart solutions
+            </h3>
+          </div>
+
+          <!-- Card 2: FinTech & payment app development (PCI-compliant systems) -->
+          <div
+            class="service-card rounded-2xl border border-black/10 bg-[#fff] p-6 md:p-7 flex flex-col transition-all duration-300 card-hover backdrop-blur-sm"
+          >
+            <div class="flex items-center justify-between mb-4">
+              <div
+                class="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center icon-shine transition-all duration-200"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 text-primary"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
+                  />
+                </svg>
+              </div>
+              <span
+                class="text-xs font-semibold uppercase tracking-wider text-primary/80 bg-primary/10 px-3 py-1 rounded-full"
+                >Gaming</span
+              >
+            </div>
+            <h3
+              class="text-base md:text-2xl font-semibold text-black font-poppins tracking-wide mt-1"
+            >
+             Gaming & mobile entertainment app development
+            </h3>
+          </div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 px-4 mt-6">
+          <!-- Card 3: On-demand apps (ride-sharing, delivery, marketplaces) -->
+          <div
+            class="service-card rounded-2xl border border-black/10 bg-[#fff] p-6 md:p-7 flex flex-col transition-all duration-300 card-hover backdrop-blur-sm"
+          >
+            <div class="flex items-center justify-between mb-4">
+              <div
+                class="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center icon-shine transition-all duration-200"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 text-primary"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.22-1.113-.615-1.53a15.04 15.04 0 00-2.084-1.496 1.125 1.125 0 00-1.55.233l-2.114 2.47a1.125 1.125 0 00-.26.752v1.03"
+                  />
+                </svg>
+              </div>
+              <span
+                class="text-xs font-semibold uppercase tracking-wider text-primary/80 bg-primary/10 px-3 py-1 rounded-full"
+                >Health</span
+              >
+            </div>
+            <h3
+              class="text-base md:text-2xl font-semibold text-black font-poppins tracking-wide mt-1"
+            >
+             HealthTech & wellness applications
+            </h3>
+            <div
+              class="mt-5 flex items-center text-primary text-sm font-medium group"
+            ></div>
+          </div>
+
+          <!-- Card 4: Cloud-native enterprise applications (AWS, Azure) -->
+          <div
+            class="service-card rounded-2xl border border-black/10 bg-[#fff] p-6 md:p-7 flex flex-col transition-all duration-300 card-hover backdrop-blur-sm"
+          >
+            <div class="flex items-center justify-between mb-4">
+              <div
+                class="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center icon-shine transition-all duration-200"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 text-primary"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a3 3 0 013-3h13.5a3 3 0 013 3"
+                  />
+                </svg>
+              </div>
+              <span
+                class="text-xs font-semibold uppercase tracking-wider text-primary/80 bg-primary/10 px-3 py-1 rounded-full"
+                >SaaS</span
+              >
+            </div>
+            <h3
+              class="text-base md:text-2xl font-semibold text-black font-poppins tracking-wide mt-1"
+            >
+              SaaS product development for startups
+            </h3>
+          </div>
+
+          <!-- Card 5: Cybersecurity-focused software & compliance solutions -->
+          <div
+            class="service-card rounded-2xl border border-black/10 bg-[#fff] p-6 md:p-7 flex flex-col transition-all duration-300 card-hover backdrop-blur-sm"
+          >
+            <div class="flex items-center justify-between mb-4">
+              <div
+                class="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center icon-shine transition-all duration-200"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 text-primary"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"
+                  />
+                </svg>
+              </div>
+              <span
+                class="text-xs font-semibold uppercase tracking-wider text-primary/80 bg-primary/10 px-3 py-1 rounded-full"
+                >Cloud</span
+              >
+            </div>
+            <h3
+              class="text-base md:text-2xl font-semibold text-black font-poppins tracking-wide mt-1"
+            >
+             Cloud-based enterprise systems & automation
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Case Studies -->
+    <section id="case" class="py-10 md:py-20 hidden">
+      <div class="max-w-7xl mx-auto px-4 text-center">
+        <h2
+          class="mb-3 text-black font-teko text-2xl md:text-5xl font-semibold"
+          data-i18n="case_title"
+        ></h2>
+
+        <p class="text-gray-600 max-w-xl mx-auto" data-i18n="case_desc"></p>
+
+        <div class="grid gap-6 mt-12 md:grid-cols-2 lg:grid-cols-4">
+          <!-- Card 1 -->
+          <div
+            class="bg-white rounded-2xl shadow-md overflow-hidden hover:-translate-y-2 transition"
+          >
+            <img
+              src="./assets/automation-platform.webp"
+              class="h-56 w-full object-cover"
+            />
+            <div class="p-5">
+              <h3 class="font-semibold text-lg mb-2">
+                AI Chatbot & Automation
+              </h3>
+              <a
+                href="https://www.suretekinfosoft.com/case-studies/from-legacy-to-lead-gen-automotive-digital-transformation-with-ai-chatbot-and-mobile-app.php"
+                class="text-primary font-semibold"
+                >View Case Study →
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="bg-white rounded-2xl shadow-md overflow-hidden hover:-translate-y-2 transition"
+          >
+            <img
+              src="./assets/qsr-software.webp"
+              class="h-56 w-full object-cover"
+            />
+            <div class="p-5">
+              <h3 class="font-semibold text-lg mb-2" data-i18n="case_2_title">
+                QSR Platform
+              </h3>
+              <a
+                href="https://www.suretekinfosoft.com/case-studies/strengthening-us-qsr-platform.php"
+                class="text-primary font-semibold"
+                >View Case Study →
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="bg-white rounded-2xl shadow-md overflow-hidden hover:-translate-y-2 transition"
+          >
+            <img
+              src="./assets/improve-ride-efficiency-by-45-with-taxi-booking-app-development.webp"
+              class="h-56 w-full object-cover"
+            />
+            <div class="p-5">
+              <h3 class="font-semibold text-lg mb-2">Taxi Booking App</h3>
+              <a
+                href="https://www.suretekinfosoft.com/case-studies/improve-ride-efficiency-by-45-with-taxi-booking-app-development.php"
+                class="text-primary font-semibold"
+                >View Case Study →
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div
+            class="bg-white rounded-2xl shadow-md overflow-hidden hover:-translate-y-2 transition"
+          >
+            <img
+              src="./assets/matchmaking-app.webp"
+              class="h-56 w-full object-cover"
+            />
+            <div class="p-5">
+              <h3 class="font-semibold text-lg mb-2">Match Making Guide App</h3>
+              <a
+                href="https://www.suretekinfosoft.com/case-studies/empowering-faith-based-matchmaking-using-ai.php"
+                class="text-primary font-semibold"
+                >View Case Study →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+       <!-- CTA -->
+    <section id="contact" class="pt-10 md:pt-20">
+      <div class="">
+        <div
+          class="bg-gradient-to-br from-red-100 via-red-50 to-red-100 text-gray-900 text-center py-16 px-6"
+        >
+          <h2
+            class="text-2xl md:text-6xl font-semibold font-teko"
+            data-i18n="contact_title"
+          >
+        Need a <span class="text-primary">Software Partner?</span> 
+      </h2>
+
+          <p
+            class="max-w-xl mx-auto text-black-100">
+            Build secure, scalable and future-ready software with Suretek Infosoft.
+          </p>
+
+          <a
+            href="#"
+            class="inline-block mt-8 px-8 py-4 bg-primary text-white hover:bg-black font-medium rounded-lg hover:-translate-y-1 transition">
+            Start Your Project
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="bg-black text-white text-center py-6"
+      data-i18n="footer_text"
+    >
+      © 2026 Suretek Infosoft. All Rights Reserved.
+    </footer>
+
+    <!-- Scroll Script -->
+    <script>
+      window.addEventListener("scroll", function () {
+        const header = document.getElementById("header");
+        if (window.scrollY > 50) {
+          header.classList.add("bg-white", "shadow-lg");
+        } else {
+          header.classList.remove("bg-white", "shadow-lg");
+        }
+      });
+    </script>
+  </body>
+</html>

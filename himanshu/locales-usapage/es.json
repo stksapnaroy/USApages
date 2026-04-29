@@ -1,0 +1,66 @@
+{
+  "nav_services": "Servicios",
+  "nav_solutions": "Soluciones clave",
+  "nav_case": "Casos de estudio",
+  "nav_contact": "Contacto",
+
+  "heroTitle": "Empresa líder en <span class='text-primary'>desarrollo de <br/> software</span> en EE. UU.",
+  "heroDesc": "¿Buscas una empresa de desarrollo de software confiable en EE. UU.? Suretek Infosoft ofrece productos digitales escalables, seguros y basados en IA.",
+  "cta": "Reservar consulta gratuita",
+
+  "services_title": "Nuestros servicios en EE. UU.",
+  "services_desc": "Servicios integrales de ingeniería de software para empresas modernas.",
+
+  "mobile_title": "Desarrollo de apps móviles",
+  "mobile_desc": "Apps para iOS y Android con alto rendimiento y excelente UX.",
+
+  "web_title": "Desarrollo de aplicaciones web",
+  "web_desc": "Aplicaciones web modernas y escalables para startups y empresas.",
+
+  "custom_title": "Software a medida",
+  "custom_desc": "Soluciones digitales personalizadas para tu flujo de trabajo.",
+
+  "ai_title": "Consultoría en IA",
+  "ai_desc": "Automatización, chatbots y sistemas de aprendizaje automático.",
+
+  "cloud_title": "Infraestructura en la nube",
+  "cloud_desc": "AWS, Azure y arquitectura cloud segura.",
+
+  "support_title": "Mantenimiento y soporte",
+  "support_desc": "Actualizaciones continuas y optimización.",
+
+  "solutions_title": "Soluciones clave entregadas",
+  "solutions_desc": "AI SaaS, FinTech, apps bajo demanda, sistemas de ciberseguridad y más.",
+
+  "tag_ai": "AI/ML",
+  "tag_fintech": "FinTech",
+  "tag_demand": "Bajo demanda",
+  "tag_cloud": "Cloud Native",
+  "tag_cyber": "Ciberseguridad",
+  "tag_qsr": "Plataforma QSR",
+  "tag_ghl": "GHL",
+
+  "solution_1": "Plataformas SaaS basadas en AI/ML y herramientas de automatización",
+  "solution_2": "Desarrollo de apps FinTech y de pago (sistemas compatibles con PCI)",
+  "solution_3": "Apps bajo demanda (ride-sharing, delivery, marketplaces)",
+  "solution_4": "Aplicaciones empresariales cloud-native (AWS, Azure)",
+  "solution_5": "Software enfocado en ciberseguridad y soluciones de cumplimiento",
+  "solution_6": "Mantenimiento de plataforma QSR y actualización de sistemas legacy a NextGen",
+  "solution_7": "Experiencia en GHL desde implementación hasta integración",
+
+  "case_title": "Casos de estudio",
+  "case_desc": "Historias reales de éxito en transformación digital.",
+
+  "case_1_title": "Plataforma de chatbot y automatización con IA",
+  "case_2_title": "Plataforma QSR",
+  "case_3_title": "App de reserva de taxis",
+  "case_4_title": "App de guía de matchmaking",
+
+  "view_case": "Ver caso de estudio →",
+
+  "contact_title": "¿Necesitas un socio de software?",
+  "contact_desc": "Construye software seguro, escalable y preparado para el futuro con Suretek Infosoft.",
+  "contact_cta": "Inicia tu proyecto",
+
+  "footer_text": "© 2026 Suretek Infosoft. Todos los derechos reservados."
+}
