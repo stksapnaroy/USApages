@@ -1,0 +1,113 @@
+{
+  "hero_title": "Træt af høje software-<br class='hidden md:block'/> <span class='text-primaryRed'>udviklingsomkostninger i USA?</span>",
+  "hero_desc": "Outsourcing er ikke kun en måde at spare penge på; det er en vækststrategi. Start din gratis 30 timers prøveperiode i dag.",
+  "hero_cta_primary": "Få gratis konsultation",
+  "hero_cta_secondary": "Se tjenester",
+
+  "stats_title": "Dokumenterede resultater. Målbar succes.",
+
+  "stat_clients": "Aktive globale kunder",
+  "stat_delivery": "Leveringsrate til tiden",
+  "stat_security": "NDA & datasikkerhedsoverholdelse",
+  "stat_kickoff": "Projektopstartstid",
+
+  "about_tag": "HVORFOR VÆLGE OS",
+
+  "about_title": "Få premium software-<br/>udvikling uden premium amerikanske omkostninger",
+
+  "about_desc": "En smartere måde at opbygge dit udviklingsteam på",
+
+  "about_point_1": "Interview før du starter",
+  "about_point_2": "Risikofri prøveperiode, ingen pres",
+  "about_point_3": "Adgang til globalt talent efter behov",
+  "about_point_4": "Samme team fra start til slut",
+  "about_point_5": "Hurtig udskiftning, ingen forsinkelser",
+  "about_point_6": "Ingen risiko med gratis prøveperiode",
+  "about_point_7": "Reducer udviklingsomkostninger betydeligt",
+  "about_point_8": "Tidszone-tilpasset kommunikation",
+
+  "about_badge_top": "Topbedømt",
+  "about_badge_bottom": "Udviklingsbureau",
+
+  "services_tag": "Vores ekspertise",
+
+  "services_title": "End-to-end softwareudviklingstjenester for amerikanske virksomheder",
+
+  "services_desc": "Fra idé til lancering leverer vi skalerbare, omkostningseffektive og højtydende softwareløsninger tilpasset dine forretningsmål.",
+
+  "service_1": "Tilpasset softwareudvikling",
+  "service_2": "Webapplikationsudvikling",
+  "service_3": "Mobilapp-udvikling",
+  "service_4": "Ansæt dedikerede udviklere",
+  "service_5": "UI/UX design",
+  "service_6": "Vedligeholdelse & support",
+  "service_7": "Cloud & DevOps",
+  "service_8": "API-udvikling & integration",
+
+  "faq_title": "Ofte stillede spørgsmål (FAQ)",
+  "faq_desc": "Har du spørgsmål? Vi har svarene",
+
+  "faq_q1": "Hvorfor bør amerikanske virksomheder outsource softwareudvikling?",
+  "faq_a1": "Amerikanske virksomheder outsourcer for at reducere udviklingsomkostninger, få adgang til globalt talent og fremskynde projektlevering uden omkostningerne ved interne teams.",
+
+  "faq_q2": "Kan jeg interviewe udviklere før start?",
+  "faq_a2": "Ja. Du kan screene og interviewe udviklere for at sikre, at de matcher dine tekniske og kommunikative behov.",
+
+  "faq_q3": "Hvordan reducerer dette mine udviklingsomkostninger i USA?",
+  "faq_a3": "Du undgår høje lønninger, fordele og ansættelsesomkostninger, mens du stadig får udvikling i høj kvalitet.",
+
+  "faq_q4": "Er outsourcing af softwareudvikling sikkert?",
+  "faq_a4": "Ja. Med korrekte NDA’er, sikre arbejdsgange og databeskyttelsespraksis er outsourcing sikkert og pålideligt.",
+
+  "faq_q5": "Tilbyder I en gratis prøveperiode før start?",
+  "faq_a5": "Ja, vi tilbyder en 100 % gratis prøveperiode, så du kan evaluere vores arbejdskvalitet, kommunikation og hastighed, før du forpligter dig.",
+
+  "faq_q6": "Hvor hurtigt kan I starte mit projekt?",
+  "faq_a6": "Vi kan typisk starte inden for 24–48 timer efter at have forstået dine krav.",
+
+  "faq_q7": "Kan jeg ansætte dedikerede udviklere til mit projekt?",
+  "faq_a7": "Absolut. Du kan ansætte fuldtids- eller deltids dedikerede udviklere baseret på dine behov.",
+
+  "case_title": "Cases",
+
+  "case1_title": "Digitalisering af sundhedsvæsenet",
+  "case1_desc": "Sikkert, skalerbart EHR-system, der muliggør problemfri håndtering af patientdata og overholdelse.",
+
+  "case2_title": "Digitalisering af ejendomme",
+  "case2_desc": "Modernisering af vurderingsprocesser med hurtigere rapportering og digital effektivitet.",
+
+  "case3_title": "Smart salgsløsning",
+  "case3_desc": "Forbedring af salgsresultater gennem automatisering, indsigt og smartere processer.",
+
+  "case4_title": "QSR IT-support",
+  "case4_desc": "Pålidelig IT-infrastruktur, der sikrer problemfri drift for en hurtigt voksende QSR-platform.",
+
+  "case5_title": "AI matchmaking-platform",
+  "case5_desc": "Udnytter AI til at skabe meningsfulde, præcise og personlige matchmaking-oplevelser.",
+
+  "case6_title": "Webapplikationsudvikling",
+  "case6_desc": "Vi skaber hurtige, sikre webapplikationer ved hjælp af moderne teknologier.",
+
+  "case_cta": "Læs mere →",
+
+  "footer_desc": "Premium IT- og digitale løsninger designet til at skalere din virksomhed. Kvalitetsudvikling, strategisk prissætning.",
+
+  "footer_company": "Virksomhed",
+  "footer_about": "Om os",
+  "footer_portfolio": "Portefølje",
+  "footer_careers": "Karriere",
+
+  "footer_services": "Tjenester",
+  "footer_service_web": "Webudvikling",
+  "footer_service_mobile": "Mobilapplikationer",
+  "footer_service_uiux": "UI/UX design",
+  "footer_service_marketing": "Digital markedsføring",
+  "footer_service_custom": "Tilpasset software",
+
+  "footer_contact": "Kontakt",
+  "footer_address": "Noida, UP, Indien",
+  "footer_email": "info@suretekinfosoft.com",
+  "footer_phone": "+1 (555) 123-4567",
+
+  "footer_copyright": "© 2026 Suretek Infosoft. Alle rettigheder forbeholdes."
+}

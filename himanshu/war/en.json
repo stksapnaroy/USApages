@@ -1,0 +1,113 @@
+{
+  "hero_title": "Tired of High Software <br class='hidden md:block'/> <span class='text-primaryRed'>Development Costs in the US?</span>",
+  "hero_desc": "Outsourcing isn’t a cost-cutting tactic; it’s a growth strategy. Start your 30 hrs free trial today.",
+  "hero_cta_primary": "Get Free Consultation",
+  "hero_cta_secondary": "View Services",
+
+  "stats_title": "Proven Results. Measurable Success.",
+
+  "stat_clients": "Active Global Clients",
+  "stat_delivery": "On-Time Delivery Rate",
+  "stat_security": "NDA & Data Security Compliance",
+  "stat_kickoff": "Project Kickoff Time",
+
+  "about_tag": "WHY CHOOSE US",
+
+  "about_title": "Get Premium Software <br/> Development Without Premium US Costs",
+
+  "about_desc": "A Smarter Way to Build Your Development Team",
+
+  "about_point_1": "Interview Before You Start",
+  "about_point_2": "Risk-Free Trial, Zero Pressure",
+  "about_point_3": "Access Global Talent On Demand",
+  "about_point_4": "Same Team, Start to Finish",
+  "about_point_5": "Quick Replacement, No Delays",
+  "about_point_6": "Zero Risk with Free Trial",
+  "about_point_7": "Reduce Development Costs Significantly",
+  "about_point_8": "Time-zone aligned communication",
+
+  "about_badge_top": "Top Rated",
+  "about_badge_bottom": "Development Agency",
+
+  "services_tag": "Our Expertise",
+
+  "services_title": "End-to-End Software Development Services for US Businesses",
+
+  "services_desc": "From idea to launch, we provide scalable, cost-effective, and high-performance software solutions customized to your business goals.",
+
+  "service_1": "Custom Software Development",
+  "service_2": "Web Application Development",
+  "service_3": "Mobile App Development",
+  "service_4": "Hire Dedicated Developers",
+  "service_5": "UI/UX Design",
+  "service_6": "Maintenance & Support",
+  "service_7": "Cloud & DevOps",
+  "service_8": "API Development & Integration",
+
+  "faq_title": "Frequently Asked Questions (FAQs)",
+  "faq_desc": "Got Questions? We’ve Got Answers",
+
+  "faq_q1": "Why should US companies outsource software development?",
+  "faq_a1": "US businesses outsource to reduce development costs, access global talent, and speed up project delivery without the overhead of hiring in-house teams.",
+
+  "faq_q2": "Can I interview developers before starting?",
+  "faq_a2": "Yes. You can screen and interview developers to ensure they match your technical and communication needs.",
+
+  "faq_q3": "How does this reduce my development cost in the US?",
+  "faq_a3": "You avoid high salaries, benefits, and hiring costs while still getting high-quality development.",
+
+  "faq_q4": "Is outsourcing software development secure?",
+  "faq_a4": "Yes. With proper NDAs, secure workflows, and data protection practices, outsourcing is safe and reliable.",
+
+  "faq_q5": "Do you offer a free trial before starting?",
+  "faq_a5": "Yes, we offer a 100% free trial so you can evaluate our work quality, communication, and speed before making any commitment.",
+
+  "faq_q6": "How quickly can you start my project?",
+  "faq_a6": "We can typically begin within 24–48 hours after understanding your requirements.",
+
+  "faq_q7": "Can I hire dedicated developers for my project?",
+  "faq_a7": "Absolutely. You can hire full-time or part-time dedicated developers based on your needs.",
+
+  "case_title": "Case Studies",
+
+  "case1_title": "Healthcare Digitalization",
+  "case1_desc": "Secure, scalable EHR system enabling seamless patient data management and compliance.",
+
+  "case2_title": "Real Estate Digitization",
+  "case2_desc": "Modernizing appraisal workflows with faster reporting and digital efficiency.",
+
+  "case3_title": "Smart Sales Solution",
+  "case3_desc": "Boosting sales performance through automation, insights, and smarter processes.",
+
+  "case4_title": "QSR IT Support",
+  "case4_desc": "Reliable IT infrastructure ensuring smooth operations for a fast-growing QSR platform.",
+
+  "case5_title": "AI Matchmaking Platform",
+  "case5_desc": "Leveraging AI to create meaningful, accurate, and personalized matchmaking experiences.",
+
+  "case6_title": "Web Application Development",
+  "case6_desc": "We create fast, secure web applications using modern technologies.",
+
+  "case_cta": "Read More →",
+
+  "footer_desc": "Premium IT & Digital solutions designed to scale your business. Quality development, strategic pricing.",
+
+  "footer_company": "Company",
+  "footer_about": "About Us",
+  "footer_portfolio": "Portfolio",
+  "footer_careers": "Careers",
+
+  "footer_services": "Services",
+  "footer_service_web": "Web Development",
+  "footer_service_mobile": "Mobile Applications",
+  "footer_service_uiux": "UI/UX Design",
+  "footer_service_marketing": "Digital Marketing",
+  "footer_service_custom": "Custom Software",
+
+  "footer_contact": "Contact",
+  "footer_address": "Noida, UP, India",
+  "footer_email": "info@suretekinfosoft.com",
+  "footer_phone": "+1 (555) 123-4567",
+
+  "footer_copyright": "© 2026 Suretek Infosoft. All rights reserved."
+}
